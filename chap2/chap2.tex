@@ -1,0 +1,100 @@
+\chapter{学習アルゴリズム}
+\thispagestyle{empty}
+\label{chap2}
+\minitoc
+
+\newpage
+
+\section{はじめに}
+
+\clearpage
+\newpage
+
+\section{学習アルゴリズム}\label{2 system}
+本研究では，移動ロボットにおける動的障害物の回避のため強化学習，転移強化学習，知識選択を用いる．それぞれ式を示しながら述べていく．
+
+\subsection{強化学習}
+タスク達成を目指し，繰り返し最適解を試行錯誤的に学習する手法のことである．試行錯誤的に学習していくため，知識が全くない状態からの知識の取得が可能である．しかし，試行錯誤的に学習するため，学習が遅いという欠点がある[Sutton1998].以下に強化学習に用いられるQ学習の式を示す．
+\begin{equation}
+Q(s_{t},a)←Q(s_{t},a)+\alpha\left\{r+\gamma \max_{a' \in A}Q(s_{t+1},a')-Q(s_{t},a)\right\} 
+\end{equation}
+ここで、$Q(s_{t}, a$)は時刻tにおける状態sから行動aを選択したときの報酬の期待値を表す行動価値関数を示している．学習率α（0 < α ≦ 1）は、更新される価値の大きさおよび学習の速度に影響を与え，高い値では学習が速くなるものの，最適解を見つける確率が低下する可能性がある．割引率γ（0 < γ ≦ 1）は，将来の報酬の現在価値を計算する際に用いられ，γの値が小さい場合は未来の価値を低く評価し，大きい場合は高く評価する．状態st+1での最大行動価値を求めるために$\max_{a' \in A}Q(s_{t+1},a')$を用い，この値をγで割引き，現在の状態$Q(s_{t})$の価値として加算し，さらに報酬rを加え，αで割引いた値をQ(s, a)に加えることで，行動価値を更新していく．
+
+\subsection{転移学習}
+強化学習である程度学習した知識を別のタスクに適用させる手法である．知識を再利用して学習するので学習の短縮や精度を向上させることが可能である[Taylor2009]．以下に転移学習の式を示す．
+\begin{equation}
+Q_{c}(s,a)=Q_{c}(s,a)+\tau Q_{s}(s,a)
+\end{equation}
+$Q_{s}(s,a)$はSource taskから転移された行動価値関数を示している．$Q_{s}(s,a)$に転移率$\tau$（0 < τ ≦ 1）を掛けることで，新たな環境が再利用される行動価値関数を獲得した環境と異なる場合においても適応するようになる．$Q_{t}(s,a)$は転移先のタスクで更新する行動価値関数を示している．さらに新たな環境とで学習した行動価値関数も$Q_{t}(s,a)$に更新していく．$Q(s_{c},a)$は転移された行動価値関数とTarget Taskで獲得した行動価値関数を統合した行動価値関数であり，Target Taskで行われる行動選択は$Q(s_{c},a)$を用いて行われる．
+
+\subsection{行動選択}
+Qテーブルにはある状態sで取り得る行動aとそれに対応する価値が記録されている．これに基づき，どの行動を取るかを決めるために行動選択関数を用いる．アルゴリズムが存在する[河野 2022]．本研究では，行動選択関数ボルツマン選択を用いる．複雑で不確実性の高い環境や，エージェントが幅広い行動から学習によるする必要がある場合に有効である．ボルツマン選択を用いることで，エージェントが受け取る報酬を行動選択に反映させることができる．以下にボルツマン選択の式を示す．
+\begin{equation}
+p(a|s)=\frac{exp(\frac{Q(s,a)}{T})}{\sum_{b\in A}exp(\frac{Q(s,b)}{T})}
+\end{equation}
+$p(a|s)$は状態sにおいて行動選択aを選択する確率で，$Q(s,a)$は行動aを選択したときの価値，Tは温度定数でボルツマン選択におけるランダム生成を調整するパラメータである．Tが高いほど選択はランダムに近くなり，Tが低いほど最も価値の高い行動が選択されやすくなる．
+
+\subsection{知識選択}
+人の脳内における概念の選択手法と言われている活性化拡散モデルを元にしたSAP-net (Spreading Activation Policy-network) を用いた知識選択型の転移学習手法を使用し，転移強化学習を行う．使用する知識，いわゆる方策は強化学習で獲得した学習結果を指し，それらを選択することで行動を決定する．この手法を式で表したのが活性化拡散方程式である．以下に活性化拡散方程式を示す．
+
+
+\section{物理演算シミュレーション}
+本研究では強化学習，転移学習，知識選択手法を用いる．強化学習は試行錯誤的に行動を何千と繰り返して学習するため，実環境でやると時間がかかってしまう．また実機で使用するロボットが破損する恐れがある．そこでWebotsという物理演算シミュレーションを用いる[Webots1998].webotsの操作画面をFigに示す．Webotsを使用することで，シミュレーション内のロボットが強化学習を行っていくため，実環境で行うよりも安全に効率よく学習することが可能である．シミュレーション環境をFigに示す．
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=100mm]{./chap2/chap2_fig/webots_stage}
+	\caption{Webotsの操作画面}
+	\label{structure}
+\end{figure}
+
+\clearpage
+\newpage
+
+%\subsection{QDSEGAによる多脚ロボットの行動獲得}
+%伊藤らはQDSEGA（Ql-learning with Dynamic Structuring of Exploration space based on Genetic Algorithm）を用いて，多脚ロボットの行動獲得を行っている．
+%\textcolor{red}{加筆予定}
+%
+%\begin{figure}[bh]
+%	\centering
+%	\includegraphics[width=70mm]{./chap1/chap1_fig/Ito1}
+%	\caption{Acquisition of adaptive movement by using QDSEGA \cite{伊藤2002}}
+%	\label{fig:Ito}
+%\end{figure}
+
+
+\clearpage
+\newpage
+
+\section{おわりに}\label{2 last}
+
+
+%\begin{table}[b]
+%	\centering
+%	\caption{Expectation of fire departments to robotic systems \cite{田所2012}}
+%	\label{fig:expectation}
+%	\begin{tabular}{l|c}
+%		\hline 
+%		\centering
+%		~~~~~~~~~~~~~~~災害と必要な機能&期待割合(\%)\\
+%		\hline
+%		CBRN災害&\\
+%		~~~~~センサによるCBRN物質の特定&80 \\
+%		~~~~~安全な場所への被災者の搬送&61\\
+%		~~~~~CBRN物質の除去&49\\
+%		\hline
+%		火災&\\
+%		~~~~~ビル内の消火&61\\
+%		~~~~~ビル内での探索&51\\
+%		~~~~~輻射熱にかかわらず消火&49\\
+%		\hline
+%		地震災害&\\
+%		~~~~~瓦礫の上からの捜索&53\\
+%		~~~~~瓦礫の中での捜索&45\\
+%		~~~~~重量瓦礫の除去&43\\
+%		\hline
+%		水害&\\
+%		~~~~~要救助者の捜索&55\\
+%		~~~~~水の中からの救助&49\\
+%		\hline
+%	\end{tabular}
+%\end{table}
