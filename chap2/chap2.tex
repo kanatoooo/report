@@ -51,16 +51,18 @@ A_{j.t+Δt}=A_{j,t}+a_{\delta}+\sum_{k=1}^q \eta_{k}-D_{k}
 ある時点tでの方策が持つ活性値$A_{j,t}$を外部からの入力や内部メカニズムによって加算される$a_{\delta}$，周囲の状況や他の方策から拡散されてくる値の総和$\sum_{k=1}^q \eta_{k}$を加えて，さらに時間の経過に伴う自然な減少や外部からの抑制的な影響を反映する減衰定数$D_{k}$を引くことで,時間$t+Δt$で活性値$A_{j.t+Δt}$を更新していく．
 
 \section{物理演算シミュレーション}
-強化学習は試行錯誤的に行動を何千と繰り返して学習するため，実環境でやると時間がかかってしまう．また実機で使用するロボットが破損する恐れがある．そこでWebotsという物理演算シミュレーションを用いる[Webots1998].webotsの操作画面を\Fig{webots_stage}に示す．Webotsを使用することで，シミュレーション内のロボットが強化学習を行っていくため，実環境で行うよりも安全に効率よく学習することが可能である．使用するロボットモデルを\Fig{model}に示す．
+強化学習は試行錯誤的に行動を何千と繰り返して学習するため，実環境でやると時間がかかってしまう．また実機で使用するロボットが破損する恐れがある．そこでWebotsという物理演算シミュレーションを使用する．[Webots1998]．Webotsの操作画面をFig．\ref{webots_stage}に示す．Webotsを使用することで，シミュレーション内のロボットが強化学習を行っていくため，実環境で行うよりも安全に効率よく学習することが可能である．使用するロボットモデルをFig.\ref{model}に示す．また障害物の認識はLIDARを使用する．
+
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=100mm]{./chap2/chap2_fig/webots_stage}
+	\includegraphics[width=60mm]{./chap2/chap2_fig/webots_stage}
 	\caption{Webotsの操作画面}
 	\label{webots_stage}
 \end{figure}
+
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=100mm]{./chap2/chap2_fig/model}
+	\includegraphics[width=40mm]{./chap2/chap2_fig/model}
 	\caption{シミュレーションで用いるロボットモデル}
 	\label{model}
 \end{figure}
