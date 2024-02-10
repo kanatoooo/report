@@ -6,12 +6,12 @@
 \contentsline {figure}{\numberline {1.4}{\ignorespaces 電動四輪車の知的自動運転システム[2005]}}{5}{}%
 \addvspace {10\jsc@mpt }
 \contentsline {xchapter}{学習アルゴリズム}{9}{}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces SAP-netのイメージ図}}{13}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Webotsの操作画面}}{14}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces シミュレーションで用いるロボットモデル}}{14}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces SAP-netのイメージ図}}{12}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Webotsの操作画面}}{13}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces シミュレーションで用いるロボットモデル}}{13}{}%
 \addvspace {10\jsc@mpt }
-\contentsline {xchapter}{提案手法}{17}{}%
+\contentsline {xchapter}{提案手法}{15}{}%
 \addvspace {10\jsc@mpt }
-\contentsline {xchapter}{シミュレータ実験}{21}{}%
+\contentsline {xchapter}{実験}{19}{}%
 \addvspace {10\jsc@mpt }
-\contentsline {xchapter}{結論}{27}{}%
+\contentsline {xchapter}{結論}{25}{}%

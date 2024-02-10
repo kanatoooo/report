@@ -17,36 +17,36 @@
 \contentsline {section}{\numberline {1.6}本論文の構成}{8}{}%
 \contentsline {chapter}{\numberline {第2章}学習アルゴリズム}{9}{}%
 \contentsline {section}{\numberline {2.1}はじめに}{10}{}%
-\contentsline {section}{\numberline {2.2}学習アルゴリズム}{11}{}%
-\contentsline {subsection}{\numberline {2.2.1}強化学習}{11}{}%
-\contentsline {subsection}{\numberline {2.2.2}転移学習}{11}{}%
-\contentsline {subsection}{\numberline {2.2.3}行動選択}{12}{}%
-\contentsline {subsection}{\numberline {2.2.4}知識選択}{12}{}%
-\contentsline {section}{\numberline {2.3}物理演算シミュレーション}{13}{}%
-\contentsline {section}{\numberline {2.4}おわりに}{15}{}%
-\contentsline {chapter}{\numberline {第3章}提案手法}{17}{}%
-\contentsline {section}{\numberline {3.1}はじめに}{18}{}%
-\contentsline {section}{\numberline {3.2}提案手法}{19}{}%
-\contentsline {subsection}{\numberline {3.2.1}知識選択手法（SAP-net）}{19}{}%
-\contentsline {subsection}{\numberline {3.2.2}シミュレーションによる実験}{19}{}%
-\contentsline {subsection}{\numberline {3.2.3}実機による実験}{19}{}%
-\contentsline {section}{\numberline {3.3}おわりに}{19}{}%
-\contentsline {chapter}{\numberline {第4章}シミュレータ実験}{21}{}%
-\contentsline {section}{\numberline {4.1}はじめに}{22}{}%
-\contentsline {section}{\numberline {4.2}実験環境}{23}{}%
-\contentsline {section}{\numberline {4.3}知識選択型転移強化学習}{24}{}%
-\contentsline {subsection}{\numberline {4.3.1}目的と実験条件}{24}{}%
-\contentsline {subsection}{\numberline {4.3.2}実験結果}{24}{}%
-\contentsline {section}{\numberline {4.4}実機実装}{24}{}%
-\contentsline {subsection}{\numberline {4.4.1}目的と実験条件}{24}{}%
-\contentsline {subsection}{\numberline {4.4.2}実験結果}{24}{}%
-\contentsline {section}{\numberline {4.5}おわりに}{25}{}%
-\contentsline {chapter}{\numberline {第5章}結論}{27}{}%
-\contentsline {section}{\numberline {5.1}結論}{28}{}%
-\contentsline {section}{\numberline {5.2}今後の展望}{29}{}%
+\contentsline {section}{\numberline {2.2}学習アルゴリズム}{10}{}%
+\contentsline {subsection}{\numberline {2.2.1}強化学習}{10}{}%
+\contentsline {subsection}{\numberline {2.2.2}転移学習}{10}{}%
+\contentsline {subsection}{\numberline {2.2.3}行動選択}{11}{}%
+\contentsline {subsection}{\numberline {2.2.4}知識選択}{11}{}%
+\contentsline {section}{\numberline {2.3}物理演算シミュレーション}{12}{}%
+\contentsline {section}{\numberline {2.4}おわりに}{14}{}%
+\contentsline {chapter}{\numberline {第3章}提案手法}{15}{}%
+\contentsline {section}{\numberline {3.1}はじめに}{16}{}%
+\contentsline {section}{\numberline {3.2}提案手法}{17}{}%
+\contentsline {subsection}{\numberline {3.2.1}知識選択手法（SAP-net）}{17}{}%
+\contentsline {subsection}{\numberline {3.2.2}シミュレーションによる実験}{17}{}%
+\contentsline {subsection}{\numberline {3.2.3}実機による実験}{17}{}%
+\contentsline {section}{\numberline {3.3}おわりに}{17}{}%
+\contentsline {chapter}{\numberline {第4章}実験}{19}{}%
+\contentsline {section}{\numberline {4.1}はじめに}{20}{}%
+\contentsline {section}{\numberline {4.2}実験環境}{21}{}%
+\contentsline {section}{\numberline {4.3}知識選択型転移強化学習}{22}{}%
+\contentsline {subsection}{\numberline {4.3.1}目的と実験条件}{22}{}%
+\contentsline {subsection}{\numberline {4.3.2}実験結果}{22}{}%
+\contentsline {section}{\numberline {4.4}実機実装}{22}{}%
+\contentsline {subsection}{\numberline {4.4.1}目的と実験条件}{22}{}%
+\contentsline {subsection}{\numberline {4.4.2}実験結果}{22}{}%
+\contentsline {section}{\numberline {4.5}おわりに}{23}{}%
+\contentsline {chapter}{\numberline {第5章}結論}{25}{}%
+\contentsline {section}{\numberline {5.1}結論}{26}{}%
+\contentsline {section}{\numberline {5.2}今後の展望}{27}{}%
 \chapterbegin 
-\contentsline {chapter}{謝辞}{32}{}%
+\contentsline {chapter}{謝辞}{30}{}%
 \chapterbegin 
-\contentsline {chapter}{参考文献}{33}{}%
-\contentsline {chapter}{研究業績}{38}{}%
+\contentsline {chapter}{参考文献}{31}{}%
+\contentsline {chapter}{研究業績}{36}{}%
 \chapterbegin 
