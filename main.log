@@ -1,79 +1,53 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  10 FEB 2024 15:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.20)  10 FEB 2024 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
 (c:/texlive/2023/texmf-dist/tex/platex/jsclasses/jsbook.cls
-Document Class: jsbook 2023/02/23 jsclasses (okumura, texjporg)
-Class jsbook Info: Autodetected engine: pLaTeX on input line 241.
-\jsc@mpt=\dimen156
-\jsc@mmm=\dimen157
-\jsc@smallskipamount=\skip48
-LaTeX Info: Redefining \textmc on input line 516.
-LaTeX Info: Redefining \textgt on input line 518.
-\symmincho=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 580.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 774.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 774.
-\fullwidth=\dimen158
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 935.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 935.
-\c@part=\count186
-\c@chapter=\count187
-\c@section=\count188
-\c@subsection=\count189
-\c@subsubsection=\count190
-\c@paragraph=\count191
-\c@subparagraph=\count192
-\c@figure=\count193
-\c@table=\count194
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\jsc@tocl@width=\dimen159
-\@lnumwidth=\dimen160
-\bibindent=\dimen161
-(c:/texlive/2023/texmf-dist/tex/platex/jsclasses/jslogo.sty
-Package: jslogo 2019/07/25 okumura, texjporg
-LaTeX Info: Redefining \TeX on input line 82.
-LaTeX Info: Redefining \LaTeX on input line 135.
-LaTeX Info: Redefining \LaTeXe on input line 188.
-)
-\heisei=\count195
+
+! LaTeX Error: This file needs format `pLaTeX2e'
+               but this is `LaTeX2e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \NeedsTeXFormat{pLaTeX2e}
+                              
+The current input file will not be processed further,
+because it was written for some other flavor of TeX.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 ) (./pethesis.sty
 pethesis.sty - Sat, Jan 23 2010 by Takashi Michikawa
 (c:/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip51
-\f@nch@O@elh=\skip52
-\f@nch@O@erh=\skip53
-\f@nch@O@olh=\skip54
-\f@nch@O@orh=\skip55
-\f@nch@O@elf=\skip56
-\f@nch@O@erf=\skip57
-\f@nch@O@olf=\skip58
-\f@nch@O@orf=\skip59
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
 )
 (c:/texlive/2023/texmf-dist/tex/latex/fancybox/fancybox.sty
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
-\@fancybox=\box68
-\shadowsize=\dimen162
-\@Sbox=\box69
-\do@VerbBox=\toks18
-\the@fancyput=\toks19
-\this@fancyput=\toks20
-\EndVerbatimTokens=\toks21
+\@fancybox=\box51
+\shadowsize=\dimen140
+\@Sbox=\box52
+\do@VerbBox=\toks17
+\the@fancyput=\toks18
+\this@fancyput=\toks19
+\EndVerbatimTokens=\toks20
 \Verbatim@Outfile=\write3
 \Verbatim@Infile=\read2
 ) (c:/texlive/2023/texmf-dist/tex/latex/psnfss/times.sty
@@ -92,7 +66,7 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks21
 )
 (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
@@ -108,16 +82,106 @@ Package graphics Info: Driver file: dvipdfmx.def on input line 107.
 (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
 ))
-\Gin@req@height=\dimen163
-\Gin@req@width=\dimen164
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 )
 (c:/texlive/2023/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
-\@enLab=\toks23
-))
-(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+\@enLab=\toks22
+)
+
+! LaTeX Error: Command \maketitle undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \renewcommand\maketitle
+                            {
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 81.
+
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 82.
+
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 83.
+
+
+! LaTeX Error: Command \chaptermark undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \renewcommand{\chaptermark}
+                                [1]{\markboth{‘æ\ \thechapter\ Í~#1}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \bibname undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \renewcommand{\bibname}
+                            {Ql•¶Œ£}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Environment thebibliography undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 \renewenvironment{thebibliography}
+                                       [1]% Ä’è‹`
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \chapter undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 \renewcommand{\chapter}
+                             {%
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \@dotsep undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 \renewcommand{\@dotsep}
+                             {1} % 9/18 em
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip60
+\@mathmargin=\skip57
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -125,61 +189,61 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
-\ex@=\dimen165
+\@emptytoks=\toks23
+\ex@=\dimen143
 ))
 (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen166
+\pmbraise@=\dimen144
 )
 (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count196
+\inf@bad=\count187
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count197
-\leftroot@=\count198
+\uproot@=\count188
+\leftroot@=\count189
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count199
-\DOTSCASE@=\count266
+\classnum@=\count190
+\DOTSCASE@=\count191
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box70
-\strutbox@=\box71
+\Mathstrutbox@=\box53
+\strutbox@=\box54
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen167
+\big@size=\dimen145
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count267
+\macc@depth=\count192
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count268
+\c@MaxMatrixCols=\count193
 \dotsspace@=\muskip16
-\c@parentequation=\count269
-\dspbrk@lvl=\count270
-\tag@help=\toks25
-\row@=\count271
-\column@=\count272
-\maxfields@=\count273
-\andhelp@=\toks26
-\eqnshift@=\dimen168
-\alignsep@=\dimen169
-\tagshift@=\dimen170
-\tagwidth@=\dimen171
-\totwidth@=\dimen172
-\lineht@=\dimen173
-\@envbody=\toks27
-\multlinegap=\skip61
-\multlinetaggap=\skip62
-\mathdisplay@stack=\toks28
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks24
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks25
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks26
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -188,19 +252,18 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup5
-\symAMSb=\mathgroup6
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (c:/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup7
-\symboldletters=\mathgroup8
-\symboldsymbols=\mathgroup9
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
-\symboldmincho=\mathgroup10
 Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
@@ -209,7 +272,6 @@ Package: minitoc 2000/12/13 v34 Package minitoc, patched for hyperref
 
 *** minitoc package, version 34 ***
 *** patched for hyperref ***
-*** part level macros available ***
 *** chapter level macros available ***
 \tf@mtc=\write4
 *** Autoconfiguration of extensions ***
@@ -225,14 +287,11 @@ Package: minitoc 2000/12/13 v34 Package minitoc, patched for hyperref
 
 *** Long extensions (Unix-like) will be used ***
 ==> this version is configured for UNIX-like (long extensions) file names.
-\mtc@toks=\toks29
-\mtc@strutbox=\box72
-\c@mtc=\count274
-\c@minitocdepth=\count275
-\mtcindent=\skip63
-\c@ptc=\count276
-\c@parttocdepth=\count277
-\ptcindent=\skip64
+\mtc@toks=\toks28
+\mtc@strutbox=\box55
+\c@mtc=\count199
+\c@minitocdepth=\count266
+\mtcindent=\skip60
 (c:/texlive/2023/texmf-dist/tex/latex/minitoc/english.mld
 File: english.mld 2006/01/13
 ))
@@ -240,32 +299,32 @@ File: english.mld 2006/01/13
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 ) (./slashbox.sty
 slashbox style by K.Yasuoka, May 1993.
-\@slashboxa=\box73
-\@slashboxb=\box74
-\@slashboxc=\box75
-\@slashboxwd=\count278
-\@slashboxht=\count279
-\@slashsepl=\dimen174
-\@slashsepr=\dimen175
+\@slashboxa=\box56
+\@slashboxb=\box57
+\@slashboxc=\box58
+\@slashboxwd=\count267
+\@slashboxht=\count268
+\@slashsepl=\dimen152
+\@slashsepr=\dimen153
 ) (c:/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen176
-\lightrulewidth=\dimen177
-\cmidrulewidth=\dimen178
-\belowrulesep=\dimen179
-\belowbottomsep=\dimen180
-\aboverulesep=\dimen181
-\abovetopsep=\dimen182
-\cmidrulesep=\dimen183
-\cmidrulekern=\dimen184
-\defaultaddspace=\dimen185
-\@cmidla=\count280
-\@cmidlb=\count281
-\@aboverulesep=\dimen186
-\@belowrulesep=\dimen187
-\@thisruleclass=\count282
-\@lastruleclass=\count283
-\@thisrulewidth=\dimen188
+\heavyrulewidth=\dimen154
+\lightrulewidth=\dimen155
+\cmidrulewidth=\dimen156
+\belowrulesep=\dimen157
+\belowbottomsep=\dimen158
+\aboverulesep=\dimen159
+\abovetopsep=\dimen160
+\cmidrulesep=\dimen161
+\cmidrulekern=\dimen162
+\defaultaddspace=\dimen163
+\@cmidla=\count269
+\@cmidlb=\count270
+\@aboverulesep=\dimen164
+\@belowrulesep=\dimen165
+\@thisruleclass=\count271
+\@lastruleclass=\count272
+\@thisrulewidth=\dimen166
 )
 (c:/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
@@ -275,49 +334,45 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: dvipdfmx.def on input line 149.
 
-(c:/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-)
 (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 (c:/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 
 (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen189
-\ar@mcellbox=\box76
-\extrarowheight=\dimen190
-\NC@list=\toks30
-\extratabsurround=\skip65
-\backup@length=\skip66
-\ar@cellbox=\box77
+\col@sep=\dimen167
+\ar@mcellbox=\box59
+\extrarowheight=\dimen168
+\NC@list=\toks29
+\extratabsurround=\skip61
+\backup@length=\skip62
+\ar@cellbox=\box60
 )
-\everycr=\toks31
-\minrowclearance=\skip67
-\rownum=\count284
+\everycr=\toks30
+\minrowclearance=\skip63
+\rownum=\count273
 )
 (c:/texlive/2023/texmf-dist/tex/latex/ascmac/ascmac.sty
 Package: ascmac 2020/01/15 v2.1 ascmac wrapper (community edition) 
 
 (c:/texlive/2023/texmf-dist/tex/latex/ascmac/tascmac.sty
 Package: tascmac 2020/01/15 v2.1 ascmac package (community edition) 
-\@savetbaselineshift=\dimen191
-\@saveybaselineshift=\dimen192
-\scb@x=\box78
-\scscb@x=\box79
-\@bw=\dimen193
-\@nbox=\box80
-\@nbody=\box81
-\@scw=\dimen194
-\ascmac@hoboxa=\box82
-\ascmac@hoboxb=\box83
-\@itemh=\dimen195
-\@iboxpos=\toks32
-\@iboxstr=\box84
-\@bwsp=\box85
-\@@bwsp=\box86
-\@bcal=\count285
-\shaderule=\dimen196
+Package tascmac Info: Assuming pdfLaTeX, XeLaTeX or LuaLaTeX on input line 44.
+\scb@x=\box61
+\scscb@x=\box62
+\@bw=\dimen169
+\@nbox=\box63
+\@nbody=\box64
+\@scw=\dimen170
+\ascmac@hoboxa=\box65
+\ascmac@hoboxb=\box66
+\@itemh=\dimen171
+\@iboxpos=\toks31
+\@iboxstr=\box67
+\@bwsp=\box68
+\@@bwsp=\box69
+\@bcal=\count274
+\shaderule=\dimen172
 ))
 (c:/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
@@ -328,9 +383,35 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (./mediabb.sty
 Package: mediabb 2006/10/26 v1.9 iNOUE Koich! <inoue@ma.ns.musashi-tech.ac.jp>
 )
+
+! LaTeX Error: Command \figurename undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \renewcommand{\figurename}
+                               {Fig. }   % ššš “c’†’Ç‰Ái}¨Fig. ‚É•ÏX...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \tablename undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \renewcommand{\tablename}
+                              {Table }   % ššš “c’†’Ç‰Ái•\¨Table ‚É•ÏX...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 (c:/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box87
+\@tempboxb=\box70
 )
 (c:/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
@@ -340,392 +421,2117 @@ Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen197
-\captionmargin=\dimen198
-\caption@leftmargin=\dimen199
-\caption@rightmargin=\dimen256
-\caption@width=\dimen257
-\caption@indent=\dimen258
-\caption@parindent=\dimen259
-\caption@hangindent=\dimen260
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
-Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \lefts
-kip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionski
-p \sbox \@tempboxa {#1\hskip 1zw\relax #2}\ifdim \wd \@tempboxa <\hsize \center
-ing \fi #1{\hskip 1zw\relax }#2\par \vskip \belowcaptionskip } on input line 11
-75.
+\caption@tempdima=\dimen173
+\captionmargin=\dimen174
+\caption@leftmargin=\dimen175
+\caption@rightmargin=\dimen176
+\caption@width=\dimen177
+\caption@indent=\dimen178
+\caption@parindent=\dimen179
+\caption@hangindent=\dimen180
+\abovecaptionskip=\skip64
+\belowcaptionskip=\skip65
+Package caption Info: Document class w/o caption stuff detected.
 )
-
-Package caption Warning: Unknown document class (or package),
-(caption)                standard defaults will be used.
-See the caption package documentation for explanation.
-
-\c@caption@flags=\count286
-\c@continuedfloat=\count287
+\c@caption@flags=\count275
+\c@continuedfloat=\count276
 Package caption Info: threeparttable package is loaded.
-)
-Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count288
-Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count289
-) (./algorithm.sty
+)) (./algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
- (c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
+
+(c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count290
-\float@exts=\toks33
-\float@box=\box88
-\@float@everytoks=\toks34
-\@floatcapt=\box89
+\c@float@type=\count277
+\float@exts=\toks32
+\float@box=\box71
+\@float@everytoks=\toks33
+\@floatcapt=\box72
 )
 (c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks35
-\c@algorithm=\count291
+\@float@every@algorithm=\toks34
+\c@algorithm=\count278
 ) (./algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count292
-\c@ALC@line=\count293
-\c@ALC@rem=\count294
-\c@ALC@depth=\count295
-\ALC@tlm=\skip68
-\algorithmicindent=\skip69
+\c@ALC@unique=\count279
+\c@ALC@line=\count280
+\c@ALC@rem=\count281
+\c@ALC@depth=\count282
+\ALC@tlm=\skip66
+\algorithmicindent=\skip67
 )
-(c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2023-11-09 L3 backend support: dvips
-\l__pdf_internal_box=\box90
-\g__pdf_backend_object_int=\count296
-\l__pdf_backend_content_box=\box91
-\l__pdf_backend_model_box=\box92
-\g__pdf_backend_annotation_int=\count297
-\g__pdf_backend_link_int=\count298
-\g__pdf_backend_link_sf_int=\count299
-)
-(./main.aux)
-\openout1 = `main.aux'.
+Runaway argument?
+{’m¯‘I‘ğŒ^“]ˆÚ‹­‰»ŠwK‚ğ—p‚¢‚½©—¥Œ^ˆÚ“®ƒƒ{ƒbƒg‚É‚¨‚¯‚éáŠQ•¨‰ñ”ğ }\ETC.
+! Paragraph ended before \title was complete.
+<to be read again> 
+                   \par 
+l.47 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: float package is loaded.
-Package caption Info: End \AtBeginDocument code.
+! Undefined control sequence.
+l.48 \frontmatter
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-PREPARING MINITOCS FROM main.toc
-\openout4 = `main.bmt'.
+! Undefined control sequence.
+l.50 \tableofcontents
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-\openout4 = `main.bmt'.
+! Undefined control sequence.
+l.52 \listoffigures
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-\openout4 = `main.bmt'.
+! Undefined control sequence.
+l.54 \listoftables
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Writing main.mtc1
-\openout4 = `main.mtc1'.
+! Undefined control sequence.
+l.62 \mainmatter
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Writing main.mtc2
-\openout4 = `main.mtc2'.
+(./chap1/chap1.tex
+! Undefined control sequence.
+\chapter ->\if@openright 
+                         \cleardoublepage \else \clearpage \fi \global \@top...
+l.1 \chapter
+            {˜˜_}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Writing main.mtc3
-\openout4 = `main.mtc3'.
+! Extra \else.
+\chapter ->\if@openright \cleardoublepage \else 
+                                                \clearpage \fi \global \@top...
+l.1 \chapter
+            {˜˜_}
+I'm ignoring this; it doesn't match any \if.
 
-Writing main.mtc4
-\openout4 = `main.mtc4'.
+! Extra \fi.
+\chapter ...\cleardoublepage \else \clearpage \fi 
+                                                  \global \@topnum \z@ \if@e...
+l.1 \chapter
+            {˜˜_}
+I'm ignoring this; it doesn't match any \if.
 
-Writing main.mtc5
-\openout4 = `main.mtc5'.
+! Undefined control sequence.
+\chapter ... \fi \global \@topnum \z@ \if@english 
+                                                  \@afterindentfalse \else \...
+l.1 \chapter
+            {˜˜_}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-\openout4 = `main.bmt'.
+! Extra \else.
+\chapter ... \if@english \@afterindentfalse \else 
+                                                  \@afterindenttrue \fi \sec...
+l.1 \chapter
+            {˜˜_}
+I'm ignoring this; it doesn't match any \if.
 
-Writing main.mtc6
-\openout4 = `main.mtc6'.
+! Extra \fi.
+\chapter ...dentfalse \else \@afterindenttrue \fi 
+                                                  \secdef \@chapter \@schapter 
+l.1 \chapter
+            {˜˜_}
+I'm ignoring this; it doesn't match any \if.
 
-\openout4 = `main.bmt'.
+! Undefined control sequence.
+\sv@chapter ->\stepcounter {mtc}\mtc@svchapter 
+                                               
+l.1 \chapter{˜˜_}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Writing main.mtc7
-\openout4 = `main.mtc7'.
 
-Writing main.mtc8
-\openout4 = `main.mtc8'.
+! LaTeX Error: Missing \begin{document}.
 
-\openout4 = `main.bmt'.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{˜˜_}
+                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <10> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 43.
-LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <10> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 43.
-File: tdulogo.eps Graphic file (type eps)
-<tdulogo.eps>
-LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <17.28> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 43.
-LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <17.28> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 43.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 43.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 43.
-[1
 
-] [2
+! LaTeX Error: Invalid UTF-8 byte "8F.
 
-]
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 50
-.
- (c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-)
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 50.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 50.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 50.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 50.
- (./main.toc
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 5.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 5.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{˜˜_}
+                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
 
+
+! LaTeX Error: Invalid UTF-8 byte "98.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{˜˜_}
+                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "98.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{˜˜_}
+                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1 \chapter{˜˜_}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 5.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 5.
- [1
+! Missing { inserted.
+<to be read again> 
+                   }
+l.1 \chapter{˜˜_}
+                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
 
-])
-\tf@toc=\write5
-\openout5 = `main.toc'.
+! LaTeX Error: Invalid UTF-8 byte "8F.
 
- [2] (./main.lof)
-\tf@lof=\write6
-\openout6 = `main.lof'.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{˜˜_}
+                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-[3
+! LaTeX Error: Invalid UTF-8 byte "98.
 
-] [4
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{˜˜_}
+                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
 
-] (./main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
 
- [5] [6
+! LaTeX Error: Invalid UTF-8 byte "98.
 
-] (./chap1/chap1.tex
-ç¬¬1ç« 
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 5.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 5.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 5.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 5.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 5.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 5.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 5.
-LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <12> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 5.
-LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <12> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 5.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 5.
-(./main.mtc1
-LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <9> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <9> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 1.
-) [1
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{˜˜_}
+                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
 
+! Missing { inserted.
+<to be read again> 
+                   }
+l.1 \chapter{˜˜_}
+                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Undefined control sequence.
+\mtcfont ->\small 
+                  \rm 
+l.5 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\mtcfont ->\small \rm 
+                      
+l.5 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.5 
+    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.5 
+    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.5 
+    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (7.10774pt too wide) in paragraph at lines 1--5
+[]\T1/ptm/m/n/10 [$[]\OT1/cmr/m/n/10 ][]$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 
+    
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\mtifont ->\large 
+                  \bf 
+l.5 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\mtifont ->\large \bf 
+                      
+l.5 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (35.55954pt too wide) in paragraph at lines 5--5
+[]||[]\T1/ptm/m/n/10 Contents
+ []
+
+
+Overfull \hbox (48.0pt too wide) in paragraph at lines 5--5
+[]
+ []
+
+
+Overfull \hbox (48.0pt too wide) in paragraph at lines 5--5
+
+ []
+
+(./main.mtc1)
+
+! LaTeX Error: \begin{document} ended by \end{samepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 
+    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.5 
+    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.5 
+    
+Things are pretty mixed up, but I think the worst is over.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--5
+[]| 
+ []
+
+! Too many }'s.
+\minitoc@ ...dottedtoclinep \fi \sv@minitoc@ [#1]}
+                                                  
+l.5 
+    
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \newpage
+            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\set@color ->\special {color push \current@color 
+                                                 }\aftergroup \reset@color 
+l.6 \newpage
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ->\special {color push \current@color 
+                                                 }\aftergroup \reset@color 
+l.6 \newpage
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+Non-PDF special ignored!
+<special> color push 
+Non-PDF special ignored!
+<special> color pop
+
+
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/
+texmf-dist/fonts/enc/dvips/base/8r.enc}
+! Undefined control sequence.
+<write> ...contentsline {xchapter}{˜˜_}{\thepage 
+                                                  }{}\protected@file@percent }
+l.6 \newpage
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\@writefile{lof}{\contentsline {xchapter}{˜˜_}{}{}\protected@file@percent }
+! Undefined control sequence.
+<write> ...contentsline {xchapter}{˜˜_}{\thepage 
+                                                  }{}\protected@file@percent }
+l.6 \newpage
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\@writefile{lot}{\contentsline {xchapter}{˜˜_}{}{}\protected@file@percent }
+! Undefined control sequence.
+<write> \newlabel{chap1}{{}{\thepage 
+                                     }{}{}{}}
+l.6 \newpage
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{chap1}{{}{}{}{}{}}
+Non-PDF special ignored!
+<special> color push  Black
+Non-PDF special ignored!
+<special> color pop
+Non-PDF special ignored!
+<special> color push 
+Non-PDF special ignored!
+<special> color pop
 ]
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 8.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 8.
-File: ./chap1/chap1_fig/level.pdf Graphic file (type pdf)
-<./chap1/chap1_fig/level.pdf>
- [2]
-File: ./chap1/chap1_fig/trouble.pdf Graphic file (type pdf)
-<./chap1/chap1_fig/trouble.pdf>
-File: ./chap1/chap1_fig/car.pdf Graphic file (type pdf)
-<./chap1/chap1_fig/car.pdf>
- [3
-
-] [4]
-File: ./chap1/chap1_fig/dendouyonrinsya.pdf Graphic file (type pdf)
-<./chap1/chap1_fig/dendouyonrinsya.pdf>
- [5
-
-] [6
-
-] [7
-
-]) (./chap2/chap2.tex [8
-
-]
-ç¬¬2ç« 
-(./main.mtc2) [9
-
-] [10]
-File: ./chap2/chap2_fig/SAP-net_image.pdf Graphic file (type pdf)
-<./chap2/chap2_fig/SAP-net_image.pdf>
+! Undefined control sequence.
+l.8 \section
+            {”wŒi}\label{1 background}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+! LaTeX Error: Invalid UTF-8 byte "94.
 
-[11]
-File: ./chap2/chap2_fig/webots_stage.pdf Graphic file (type pdf)
-<./chap2/chap2_fig/webots_stage.pdf>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: ./chap2/chap2_fig/model.pdf Graphic file (type pdf)
-<./chap2/chap2_fig/model.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[12] [13]) (./chap3/chap3.tex [14
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \section{”
+              wŒi}\label{1 background}
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-]
-ç¬¬3ç« 
-(./main.mtc3) [15
+! LaTeX Error: Missing \begin{document}.
 
-] [16] [17
-
-]) (./chap4/chap4.tex [18
-
-
-]
-ç¬¬4ç« 
-(./main.mtc4) [19] [20] [21
-
-] [22
-
-] [23
-
-]) (./chap5/chap5.tex [24
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \section{”w
+               Œi}\label{1 background}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-]
-ç¬¬5ç« 
-(./main.mtc5) [25] [26]) (./Backmatter/Thank.tex [27
+! LaTeX Error: Invalid UTF-8 byte "8C.
 
-] [28
-
-] [29])
-(./Reference/ref.tex [30] [31
-
-] [32]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 88
-.
-
-(c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [33] [34]
-LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 125.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 125.
-LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 125.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 125.
- [35
-
-])
-(./Backmatter/Achieve.tex [36] [37
-
-]) [38] (./main.aux)
- ***********
-pLaTeX2e <2023-02-14>+1, based on
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-12-11>
- ***********
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \section{”wŒ
+                i}\label{1 background}
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+! LaTeX Error: Invalid UTF-8 byte "8E.
 
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  
+      ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©
+       “®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "93.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“
+        ®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "AE.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®
+         Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "8E.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®
+          Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Unicode character Ô‹ (U+050B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹
+            ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ÆŠ (U+018A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠ
+              E‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚
+                ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (ÍA).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍA
+                  I‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚
+                    âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (âIo).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIo
+                       T‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚
+                         Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Unicode character Ì‚ (U+0302)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚
+                           æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character æ‚¤ (U+60A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤
+                              ‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚
+                               ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Unicode character È (U+020D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚È
+                                 Åæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (æ’[).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[
+                                      ‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "8B.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹
+                                       Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "8F.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Z
+                                         p‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚
+                                           É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Unicode character É‚ (U+0242)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚
+                                             æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (æ‚Á).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á
+                                                ‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  ©“®Ô‹ÆŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚
+                                                 Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "94.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ŠE‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”
+                                                  N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚ÍAI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚
+                                                  Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Unicode character Éˆ (U+0248)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...AI‚âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆ
+                                                  ê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (ê“x).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...âIoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x
+                                                  ‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...IoT‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚
+                                                  Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Unicode character Ì‘ (U+0311)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...T‚Ì‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘
+                                                  å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (å•Ï).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•Ï
+                                                  Šv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "8A.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...æ‚¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠ
+                                                  v‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...¤‚ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚
+                                                  Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Unicode character Ì (U+030E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ÈÅæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì
+                                                  ‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚ê...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Invalid UTF-8 byte "9E.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...Åæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì
+                                                  ‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "91.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...Åæ’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘
+                                                  ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (ãv).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...’[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv
+                                                  ‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...[‹Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚
+                                                  É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Unicode character É“ (U+0253)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...Zp‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“
+                                                  Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character Ë“ (U+02D3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...p‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“
+                                                  ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Invalid UTF-8 byte "FC.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü
+                                                  ‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...É‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚
+                                                  µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "B5.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ
+                                                  ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...æ‚Á‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚
+                                                  Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A2.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢
+                                                  ‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...Äu100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚
+                                                  é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (é‚Æ).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...100”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ
+                                                  ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...00”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚
+                                                  ³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...0”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³
+                                                  ‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Z...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...”N‚Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚
+                                                  êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Z...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (êC).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...Éˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC
+                                                  ‚»‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ˆê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚
+                                                  »‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "BB.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ê“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»
+                                                  ‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚ ...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...“x‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚
+                                                  Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Unicode character Ì’ (U+0312)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’
+                                                  †S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚é...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Invalid UTF-8 byte "86.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...Ì‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†
+                                                  S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "90.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‘å•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†
+                                                  S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...•ÏŠv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚
+                                                  É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Unicode character É‚ (U+0242)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...Šv‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚
+                                                  Í©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚É...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character Í (U+034E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í
+                                                  ©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...Ì‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©
+                                                  “®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC20...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "93.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“
+                                                  ®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC202...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "AE.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®
+                                                  ‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "89.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‘ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰
+                                                  ^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 ...ãv‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^
+                                                  “]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.9 ...v‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“
+                                                  ]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! LaTeX Error: Invalid UTF-8 byte "93.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...v‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“
+                                                  ]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "8B.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚É“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹
+                                                  Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "8F.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...“Ë“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Z
+                                                  p‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...“ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚
+                                                  ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "AA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ü‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª
+                                                  ‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚
+                                                   ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...µ‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚ 
+                                                  ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚Ä‚¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚
+                                                  éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (éD).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...¢‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD
+                                                  “Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "93.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“
+                                                  Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "C1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...é‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“Á
+                                                  ‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚Å...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚Æ‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚
+                                                  ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚Å...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Unicode character É (U+0241)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚³‚êC‚»‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚É
+                                                  C2023”N4Œ1“ú‚É‚Í“ú–{‚Å©“...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Invalid UTF-8 byte "94.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚»‚Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”
+                                                  N4Œ1“ú‚É‚Í“ú–{‚Å©“®‰^“]ƒ...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "8C.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...Ì’†S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ
+                                                  1“ú‚É‚Í“ú–{‚Å©“®‰^“]ƒŒƒx...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "8E.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...’†S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ
+                                                  1“ú‚É‚Í“ú–{‚Å©“®‰^“]ƒŒƒxƒ...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "93.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“
+                                                  ú‚É‚Í“ú–{‚Å©“®‰^“]ƒŒƒxƒ‹4...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "FA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...S‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú
+                                                  ‚É‚Í“ú–{‚Å©“®‰^“]ƒŒƒxƒ‹4‚...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚É‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚
+                                                  É‚Í“ú–{‚Å©“®‰^“]ƒŒƒxƒ‹4‚Ì...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Unicode character É‚ (U+0242)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚Í©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚
+                                                  Í“ú–{‚Å©“®‰^“]ƒŒƒxƒ‹4‚ÌŒö...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character Í“ (U+0353)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“
+                                                  ú–{‚Å©“®‰^“]ƒŒƒxƒ‹4‚ÌŒö“¹...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Invalid UTF-8 byte "FA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...©“®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú
+                                                  –{‚Å©“®‰^“]ƒŒƒxƒ‹4‚ÌŒö“¹‘...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "96.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...“®‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–
+                                                  {‚Å©“®‰^“]ƒŒƒxƒ‹4‚ÌŒö“¹‘–...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‰^“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚
+                                                  Å©“®‰^“]ƒŒƒxƒ‹4‚ÌŒö“¹‘–s...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+LaTeX Warning: Command \u invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.9 ...“]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚Å
+                                                  ©“®‰^“]ƒŒƒxƒ‹4‚ÌŒö“¹‘–s‚ª...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...]‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚Å©
+                                                  “®‰^“]ƒŒƒxƒ‹4‚ÌŒö“¹‘–s‚ª‰...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "93.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‹Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚Å©“
+                                                  ®‰^“]ƒŒƒxƒ‹4‚ÌŒö“¹‘–s‚ª‰ğ...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "AE.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...Zp‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚Å©“®
+                                                  ‰^“]ƒŒƒxƒ‹4‚ÌŒö“¹‘–s‚ª‰ğ‹...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "89.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...p‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚Å©“®‰
+                                                  ^“]ƒŒƒxƒ‹4‚ÌŒö“¹‘–s‚ª‰ğ‹Ö...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.9 ...‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚Å©“®‰^“
+                                                  ]ƒŒƒxƒ‹4‚ÌŒö“¹‘–s‚ª‰ğ‹Ö‚³...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! LaTeX Error: Invalid UTF-8 byte "93.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚ª‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚Å©“®‰^“
+                                                  ]ƒŒƒxƒ‹4‚ÌŒö“¹‘–s‚ª‰ğ‹Ö‚³...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "83.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...‚ ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚Å©“®‰^“]ƒ
+                                                  Œƒxƒ‹4‚ÌŒö“¹‘–s‚ª‰ğ‹Ö‚³‚ê...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "8C.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ... ‚éD“Á‚ÉC2023”N4Œ1“ú‚É‚Í“ú–{‚Å©“®‰^“]ƒŒ
+                                                  ƒxƒ‹4‚ÌŒö“¹‘–s‚ª‰ğ‹Ö‚³‚ê‚...
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 6677 strings out of 474832
- 101175 string characters out of 5763981
- 1927305 words of memory out of 5000000
- 28781 multiletter control sequences out of 15000+600000
- 608312 words of font info for 159 fonts, out of 8000000 for 9000
- 934 hyphenation exceptions out of 8191
- 72i,13n,79p,3872b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 5483 strings out of 474175
+ 81374 string characters out of 5749697
+ 1926460 words of memory out of 5000000
+ 27695 multiletter control sequences out of 15000+600000
+ 565343 words of font info for 56 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,12n,79p,1464b,141s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (46 pages, 106560 bytes).
+!  ==> Fatal error occurred, no output PDF file produced!
