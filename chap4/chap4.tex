@@ -5,25 +5,50 @@
 
 \newpage
 \section{はじめに}
-本章では，提案したアプローチの有用性を示すために行った．
+本章では，提案したアプローチの有用性を示すために行った実験について述べる．4.1節ではWebotsで障害物回避の強化学習シミュレーションによる実験，4.2節では，4.3節では学習結果を転移させた実機ロボットによる障害物回避の実験について述べる．
 
-\clearpage
-\newpage
-
-\section{実験環境}\label{4 simulation environment}
-実験環境を図で説明
-
-
-\clearpage
-\newpage
-
-\section{知識選択型転移強化学習}\label{4 single arm}
+\section{障害物回避の強化学習実験}\label{4 single arm}
 \subsection{目的と実験条件}
-目的：転移強化学習が障害物回避に有用であるか\\
-実験条件を書く
+事前実験として強化学習を用いて障害物を回避する実験を行った．事前実験の目的は障害物回避の知識を実機に転移させるためである．事前実験の条件は以下の通りである．実験環境をFig．\ref{zikkennkannkyou1}に示す．
+\begin{itemize}
+\item 障害物の配置パターンは前方に9パターンと障害物がないパターンの合計10パターンを強化学習
+\item 障害物の配置パターン1つにつき7000エピソードで学習
+\item 強化学習はQ学習を使用
+\item 行動価値はx座標，y座標，ロボットの向き，ロボットから見た障害物の角度，障害物の最小距離を使用
+\item ゴールにたどり着いたら正の報酬，障害物に衝突またはゴールから遠ざかる行動をしたら負の報酬を付与
+\end{itemize}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=80mm]{./chap4/chap4_fig/zikkennkannkyou1}
+	\caption{強化学習シミュレーションの環境}
+	\label{zikkennkannkyou1}
+\end{figure}
+上記の条件・環境で強化学習を進め，エピソードごとのステップ数を分析して，障害物の回避策を効率的に実施するための知識を構築する．
 
 \subsection{実験結果}
+以下にFig.\ref{zikkennkannkyou1}の配置パターン(障害物が中心にある場合)の強化学習の結果を示す．
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=100mm]{./chap4/chap4_fig/TLstep}
+	\caption{行動回数の推移を表した学習曲線}
+	\label{TLstep}
+\end{figure}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=100mm]{./chap4/chap4_fig/TLreward}
+	\caption{獲得報酬の推移を表した学習曲線}
+	\label{TLreward}
+\end{figure}
+Fig.\ref{TLstep}より，エピソード数（試行回数）が増えるにつれてステップ数（行動回数）が減少していることがわかる．このことから効率よく学習しながら，少ないステップ数で障害物を回避してゴールしていることを示している．Fig.\ref{TLreward}より，エピソード数が増えるにつれて獲得報酬は正の値に収束していることがわかる．このことから最適な行動戦略やポリシーを獲得し，報酬を最大化していることがわかる．今回は障害物を中心に配置したときの結果を示したが，他の配置パターンも同様な結果を示せた．以下に強化学習後のシミュレーションロボットの移動軌跡をFig.\ref{TLkiseki}に示す．
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=100mm]{./chap4/chap4_fig/TLkiseki}
+	\caption{強化学習後の移動軌跡}
+	\label{TLkiseki}
+\end{figure}
+障害物の右側を回避するような経路となった．
 \section{実機実装}
 \subsection{目的と実験条件}
 目的：転移強化学習で得られた学習データを実機に転移させ，障害物回避が可能であるか
