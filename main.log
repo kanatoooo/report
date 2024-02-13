@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.20)  13 FEB 2024 11:50
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  13 FEB 2024 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -618,50 +618,65 @@ File: ./chap1/chap1_fig/level.pdf Graphic file (type pdf)
  [2]
 File: ./chap1/chap1_fig/trouble.pdf Graphic file (type pdf)
 <./chap1/chap1_fig/trouble.pdf>
-File: ./chap1/chap1_fig/car.pdf Graphic file (type pdf)
-<./chap1/chap1_fig/car.pdf>
  [3
 
-] [4]
+]
+File: ./chap1/chap1_fig/car.pdf Graphic file (type pdf)
+<./chap1/chap1_fig/car.pdf>
+ [4
+
+]
 File: ./chap1/chap1_fig/dendouyonrinsya.pdf Graphic file (type pdf)
 <./chap1/chap1_fig/dendouyonrinsya.pdf>
  [5
 
-] [6
+]
+File: ./chap1/chap1_fig/unity.pdf Graphic file (type pdf)
+<./chap1/chap1_fig/unity.pdf>
+ [6
 
 ] [7
 
-]) (./chap2/chap2.tex [8
+] [8
+
+]) (./chap2/chap2.tex [9
+
+] [10
 
 ]
 第2章
-(./main.mtc2) [9
-
-] [10]
+(./main.mtc2) [11] [12]
 File: ./chap2/chap2_fig/SAP-net_image.pdf Graphic file (type pdf)
 <./chap2/chap2_fig/SAP-net_image.pdf>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11] [12]) (./chap3/chap3.tex [13
+[13] [14]) (./chap3/chap3.tex [15
 
 
-] [14
+] [16
 
 ]
 第3章
-(./main.mtc3) [15] [16]
+(./main.mtc3) [17] [18]
 File: ./chap2/chap2_fig/webots_stage.pdf Graphic file (type pdf)
 <./chap2/chap2_fig/webots_stage.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: ./chap2/chap2_fig/model.pdf Graphic file (type pdf)
 <./chap2/chap2_fig/model.pdf>
- [17]) (./chap4/chap4.tex [18
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19] [20]) (./chap4/chap4.tex
+第4章
+(./main.mtc4) [21
 
 
 ]
-第4章
-(./main.mtc4) [19]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 4.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -670,34 +685,34 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 File: ./chap4/chap4_fig/zikkennkannkyou1.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/zikkennkannkyou1.pdf>
 
-[20]
+[22]
 File: ./chap4/chap4_fig/TLstep.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/TLstep.pdf>
 File: ./chap4/chap4_fig/TLreward.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/TLreward.pdf>
 File: ./chap4/chap4_fig/TLkiseki.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/TLkiseki.pdf>
- [21] [22] [23
+ [23] [24] [25
 
-]) (./chap5/chap5.tex [24
+]) (./chap5/chap5.tex [26
 
 
 ]
 第5章
-(./main.mtc5) [25] [26]) (./Backmatter/Thank.tex [27
+(./main.mtc5) [27] [28]) (./Backmatter/Thank.tex [29
 
-] [28
+] [30
 
-] [29])
-(./Reference/ref.tex [30] [31
+] [31])
+(./Reference/ref.tex [32] [33
 
-] [32]
+] [34]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 88
 .
 
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [33] [34]
+) [35] [36]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 125.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -706,25 +721,29 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 125.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 125.
- [35
+ [37
 
 ])
-(./Backmatter/Achieve.tex [36] [37
+(./Backmatter/Achieve.tex [38] [39
 
-]) [38] (./main.aux)
+]) [40] (./main.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 6736 strings out of 474833
- 102567 string characters out of 5764002
+ 6744 strings out of 474832
+ 102775 string characters out of 5763981
  1927305 words of memory out of 5000000
- 28830 multiletter control sequences out of 15000+600000
+ 28838 multiletter control sequences out of 15000+600000
  608626 words of font info for 160 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  72i,13n,79p,3872b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (46 pages, 113000 bytes).
+Output written on main.dvi (48 pages, 118504 bytes).
