@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  15 FEB 2024 14:42
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  15 FEB 2024 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -720,21 +720,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] [35])
 (./Reference/ref.tex [36] [37
 
-]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 52
+] [38]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 58
 .
 
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [38] [39]
+) [39]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 76.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 76.
+(Font)              scaled to size 9.60999pt on input line 82.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 76.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 76.
+(Font)              scaled to size 9.60999pt on input line 82.
 )
 (./Backmatter/Achieve.tex [40
 
@@ -748,12 +748,12 @@ L3 programming layer <2023-12-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6771 strings out of 474832
- 103923 string characters out of 5763981
+ 6772 strings out of 474832
+ 103931 string characters out of 5763981
  1928305 words of memory out of 5000000
- 28860 multiletter control sequences out of 15000+600000
+ 28861 multiletter control sequences out of 15000+600000
  608626 words of font info for 160 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  72i,13n,79p,3872b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (50 pages, 130896 bytes).
+Output written on main.dvi (50 pages, 131144 bytes).
