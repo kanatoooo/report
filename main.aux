@@ -27,6 +27,8 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.3.2}強化学習による仮想環境と実環境における自動走行車いすの障害物回避}{6}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces 電動車いす（左）と3Dモデル（右）[坂田2022]}}{6}{}\protected@file@percent }
 \newlabel{dunity}{{1.5}{6}{}{}{}}
+\citation{敷島2021}
+\citation{金原2022}
 \@writefile{toc}{\contentsline {section}{\numberline {1.4}本研究の目的}{7}{}\protected@file@percent }
 \newlabel{1 objective}{{1.4}{7}{}{}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.5}本論文における研究3要素}{8}{}\protected@file@percent }
@@ -60,15 +62,15 @@
 \newlabel{chap3}{{3}{17}{}{}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}はじめに}{18}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}提案手法}{18}{}\protected@file@percent }
+\newlabel{3 method}{{3.2}{18}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Q学習による強化学習実験}{18}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}SAP-netの活用}{19}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}SAP-netの活用}{18}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}物理演算シミュレーション}{19}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}シミュレーションから現実への適応}{19}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}おわりに}{19}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Webotsの操作画面}}{20}{}\protected@file@percent }
-\newlabel{webots_stage}{{3.1}{20}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Webotsの操作画面}}{19}{}\protected@file@percent }
+\newlabel{webots_stage}{{3.1}{19}{}{}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces シミュレーションで用いるロボットモデル}}{20}{}\protected@file@percent }
 \newlabel{model}{{3.2}{20}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}おわりに}{20}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {chapter}{\numberline {第4章}実験}{21}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\jsc@mpt }}
 \@writefile{lot}{\addvspace {10\jsc@mpt }}
@@ -76,65 +78,64 @@
 \@writefile{lot}{\contentsline {xchapter}{実験}{21}{}\protected@file@percent }
 \newlabel{chap4}{{4}{21}{}{}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}はじめに}{22}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}障害物回避の強化学習実験}{22}{}\protected@file@percent }
-\newlabel{4 single arm}{{4.2}{22}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}目的と実験条件}{22}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 強化学習シミュレーションの環境}}{22}{}\protected@file@percent }
-\newlabel{zikkennkannkyou1}{{4.1}{22}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}実験結果}{23}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces 行動回数の推移を表した学習曲線}}{23}{}\protected@file@percent }
-\newlabel{TLstep}{{4.2}{23}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces 獲得報酬の推移を表した学習曲線}}{23}{}\protected@file@percent }
-\newlabel{TLreward}{{4.3}{23}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces 強化学習後の移動軌跡}}{24}{}\protected@file@percent }
-\newlabel{TLkiseki}{{4.4}{24}{}{}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}実機実装}{24}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}目的と実験条件}{24}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}実験結果}{24}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}おわりに}{25}{}\protected@file@percent }
-\newlabel{4 last}{{4.4}{25}{}{}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第5章}結論}{27}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}障害物回避の強化学習実験}{23}{}\protected@file@percent }
+\newlabel{4 RLsim}{{4.2}{23}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}目的と実験条件}{23}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 強化学習シミュレーションの環境}}{23}{}\protected@file@percent }
+\newlabel{zikkennkannkyou1}{{4.1}{23}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}実験結果}{24}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces 行動回数の推移を表した学習曲線}}{24}{}\protected@file@percent }
+\newlabel{TLstep}{{4.2}{24}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces 獲得報酬の推移を表した学習曲線}}{24}{}\protected@file@percent }
+\newlabel{TLreward}{{4.3}{24}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces 強化学習後の移動軌跡}}{25}{}\protected@file@percent }
+\newlabel{TLkiseki}{{4.4}{25}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}SAP-netを実装したシミュレーション実験}{25}{}\protected@file@percent }
+\newlabel{4 SAP-net}{{4.3}{25}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}目的と実験条件}{25}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}結果}{26}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 行動回数の推移を表した学習曲線}}{26}{}\protected@file@percent }
+\newlabel{SAP-net_sim}{{4.5}{26}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 獲得報酬の推移を表した学習曲線}}{26}{}\protected@file@percent }
+\newlabel{SAP-net_reward}{{4.6}{26}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces 障害物を2つ配置した場合の移動軌跡}}{27}{}\protected@file@percent }
+\newlabel{SAP-net_kiseki}{{4.7}{27}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}実機実装と障害物回避性能の検証}{28}{}\protected@file@percent }
+\newlabel{4 zikki}{{4.4}{28}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}目的と実験条件}{28}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces ラズベリーパイマウス}}{28}{}\protected@file@percent }
+\newlabel{raspimouse}{{4.8}{28}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces 実験エリア}}{29}{}\protected@file@percent }
+\newlabel{zikeneria}{{4.9}{29}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}実験結果}{29}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}おわりに}{29}{}\protected@file@percent }
+\newlabel{4 last}{{4.5}{29}{}{}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第5章}結論}{31}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\jsc@mpt }}
 \@writefile{lot}{\addvspace {10\jsc@mpt }}
-\@writefile{lof}{\contentsline {xchapter}{結論}{27}{}\protected@file@percent }
-\@writefile{lot}{\contentsline {xchapter}{結論}{27}{}\protected@file@percent }
-\newlabel{chap5}{{5}{27}{}{}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}結論}{28}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}今後の展望}{29}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {xchapter}{結論}{31}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {xchapter}{結論}{31}{}\protected@file@percent }
+\newlabel{chap5}{{5}{31}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}結論}{32}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}今後の展望}{33}{}\protected@file@percent }
 \@writefile{toc}{\chapterbegin }
-\@writefile{toc}{\contentsline {chapter}{謝辞}{32}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{謝辞}{36}{}\protected@file@percent }
 \@writefile{toc}{\chapterbegin }
-\@writefile{toc}{\contentsline {chapter}{参考文献}{33}{}\protected@file@percent }
-\bibcite{淺間2014}{淺間 2014}
-\bibcite{田所2012}{田所 2012}
+\@writefile{toc}{\contentsline {chapter}{参考文献}{37}{}\protected@file@percent }
+\bibcite{田所2005}{中川 2005}
 \bibcite{敷島2021}{敷島 2021}
-\bibcite{久武2022}{金原 2022}
+\bibcite{金原2022}{金原 2022}
 \bibcite{河野2022}{河野 2022}
 \bibcite{齋藤2014}{齋藤 2014}
-\bibcite{石倉2016}{石倉 2016}
+\bibcite{坂田2022}{坂田 2022}
 \bibcite{Sutton1998}{Sutton 1998}
-\bibcite{木村1999}{木村 1999}
-\bibcite{広瀬1998}{広瀬 1998}
-\bibcite{米田1996}{米田 1996}
-\bibcite{中岡2013}{中岡 2013}
-\bibcite{中村2016}{中村 2016}
-\bibcite{内閣府2016}{内閣府 2016}
-\bibcite{気象庁2016}{気象庁 2016}
-\bibcite{原木2013}{原木 2013}
-\bibcite{防衛省2016}{防衛省 自衛隊 2016}
 \bibcite{米国家運輸安全委員会2019}{米国家運輸安全委員会 2019}
 \bibcite{ROHM2020}{ROHM 2020}
-\bibcite{Matsuno2004}{Matsuno 2004}
-\bibcite{Murphy2004}{Murphy 2004}
-\bibcite{Carlson2005}{Carlson 2005}
-\bibcite{Messuri1985}{Messuri 1985}
-\bibcite{Platt1991}{Platt 1991}
-\bibcite{Nagatani2011}{Nagatani 2011}
-\bibcite{Kawatsuma2012}{Kawatsuma 2012}
-\bibcite{Kober2013}{Kober 2013}
-\bibcite{Haykin2009}{Haykin 2009}
-\bibcite{Mnih2013}{Mnih 2013}
-\@writefile{toc}{\contentsline {chapter}{研究業績}{38}{}\protected@file@percent }
+\bibcite{国土交通省2015}{国土交通省 2015}
+\bibcite{厚生労働省2023}{厚生労働省 2023}
+\bibcite{Taylor2009}{Taylor 2009}
+\bibcite{Kono2019}{Kono 2019}
+\@writefile{toc}{\contentsline {chapter}{研究業績}{40}{}\protected@file@percent }
 \@writefile{toc}{\chapterbegin }
-\newlabel{achive}{{5.2}{39}{}{}{}}
-\gdef \@abspage@last{48}
+\newlabel{achive}{{5.2}{41}{}{}{}}
+\gdef \@abspage@last{50}

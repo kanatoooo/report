@@ -5,9 +5,11 @@
 
 \newpage
 \section{はじめに}
-本章では，提案したアプローチの有用性を示すために行った実験について述べる．4.1節ではWebotsで障害物回避の強化学習シミュレーションによる実験，4.2節では，4.3節では学習結果を転移させた実機ロボットによる障害物回避の実験について述べる．
+本章では，提案したアプローチの有用性を示すために行った実験について述べる．\ref{4 RLsim}節ではWebotsで障害物回避の強化学習シミュレーションによる実験の目的，実験条件，および実験結果について述べる．\ref{4 SAP-net}節では，SAP-netを実装したシミュレーション実験の目的，実験条件，および実験結果について述べる．\ref{4 zikki}節では学習結果を転移させた実機ロボットによる障害物回避の実験の目的，条件，および結果について述べる．
 
-\section{障害物回避の強化学習実験}\label{4 single arm}
+\clearpage
+
+\section{障害物回避の強化学習実験}\label{4 RLsim}
 \subsection{目的と実験条件}
 事前実験として強化学習を用いて障害物を回避する実験を行った．事前実験の目的は障害物回避の知識を実機に転移させるためである．事前実験の条件は以下の通りである．実験環境をFig．\ref{zikkennkannkyou1}に示す．
 \begin{itemize}
@@ -20,48 +22,80 @@
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=80mm]{./chap4/chap4_fig/zikkennkannkyou1}
+	\includegraphics[width=120mm]{./chap4/chap4_fig/zikkennkannkyou1}
 	\caption{強化学習シミュレーションの環境}
 	\label{zikkennkannkyou1}
 \end{figure}
 上記の条件・環境で強化学習を進め，エピソードごとのステップ数を分析して，障害物の回避策を効率的に実施するための知識を構築する．
-
+\clearpage
 \subsection{実験結果}
 以下にFig.\ref{zikkennkannkyou1}の配置パターン(障害物が中心にある場合)の強化学習の結果を示す．
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=100mm]{./chap4/chap4_fig/TLstep}
+	\includegraphics[width=120mm]{./chap4/chap4_fig/TLstep}
 	\caption{行動回数の推移を表した学習曲線}
 	\label{TLstep}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=100mm]{./chap4/chap4_fig/TLreward}
+	\includegraphics[width=120mm]{./chap4/chap4_fig/TLreward}
 	\caption{獲得報酬の推移を表した学習曲線}
 	\label{TLreward}
 \end{figure}
-Fig.\ref{TLstep}より，エピソード数（試行回数）が増えるにつれてステップ数（行動回数）が減少していることがわかる．このことから効率よく学習しながら，少ないステップ数で障害物を回避してゴールしていることを示している．Fig.\ref{TLreward}より，エピソード数が増えるにつれて獲得報酬は正の値に収束していることがわかる．このことから最適な行動戦略やポリシーを獲得し，報酬を最大化していることがわかる．今回は障害物を中心に配置したときの結果を示したが，他の配置パターンも同様な結果を示せた．以下に強化学習後のシミュレーションロボットの移動軌跡をFig.\ref{TLkiseki}に示す．
+Fig.\ref{TLstep}より，エピソード数（試行回数）が増えるにつれてステップ数（行動回数）が減少していることがわかる．このことから効率よく学習しながら，少ないステップ数で障害物を回避してゴールしていることを示している．Fig.\ref{TLreward}より，エピソード数が増えるにつれて獲得報酬は正の値に収束していることがわかる．このことから最適な行動戦略やポリシーを獲得し，報酬を最大化していることがわかる．今回は障害物を中心に配置したときの結果を示したが，他の配置パターンも同様な結果となった．以下に強化学習後のシミュレーションロボットの移動軌跡をFig.\ref{TLkiseki}に示す．Fig.\ref{TLkiseki}から，エージェントが障害物を回避するように障害物の右側を通過する移動軌跡となった事が示せた．
+
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=100mm]{./chap4/chap4_fig/TLkiseki}
+	\includegraphics[width=120mm]{./chap4/chap4_fig/TLkiseki}
 	\caption{強化学習後の移動軌跡}
 	\label{TLkiseki}
 \end{figure}
-障害物の右側を回避するような経路となった．
-\section{実機実装}
+
+\section{SAP-netを実装したシミュレーション実験}\label{4 SAP-net}
 \subsection{目的と実験条件}
-目的：転移強化学習で得られた学習データを実機に転移させ，障害物回避が可能であるか
-二輪ロボットと同じような環境で行う
-\subsection{実験結果}
-
-
+前節にて述べた障害物回避の強化学習実験においては，Webotsを用いたシミュレーション環境でQ学習を基にした基本的な障害物回避の学習プロセスを実施し，ロボットが異なる障害物配置パターン下での効率的な回避行動を学習することができることを示した．これらの実験を通じて得られた知識は，ロボットが複雑な環境下での障害物回避能力を向上させるための基礎となる．本節では前節で得られた10個の知識（行動価値関数）を基盤として，さらに進んだ学習アルゴリズムの適用を行う．具体的には，SAP-netを通じて，ロボットが障害物までの角度と距離，ロボットの初期座標を考慮した上で，これまでに学習した知識（行動価値関数）と現在の環境との類似度を計算し，最適な行動選択を行うシミュレーションを実装する．シミュレーション環境は前節と同様に，障害物を中心に配置する．
+\subsection{結果}
+以下に行動回数の学習曲線をFig.\ref{SAP-net_sim}に行動回数の推移を表した学習曲線を，Fig.\ref{SAP-net_reward}に獲得報酬の推移を表した学習曲線を示す．
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=110mm]{./chap4/chap4_fig/SAP-net_sim}
+	\caption{行動回数の推移を表した学習曲線}
+	\label{SAP-net_sim}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=110mm]{./chap4/chap4_fig/SAP-net_reward}
+	\caption{獲得報酬の推移を表した学習曲線}
+	\label{SAP-net_reward}
+\end{figure}
+Fig.\ref{SAP-net_sim}より，知識（行動価値関数）を保持した状態なので，強化学習実験とは違ってより少ない行動でゴールしていることがわかる．Fig.\ref{SAP-net_reward}より，Webotsでのバグが生じたものの，ほぼ正の値に収束していることがわかる．また，障害物を2つ配置した場合の行動も検証したので，その時の移動軌跡をFig.\ref{SAP-net_kiseki}に示す．
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=110mm]{./chap4/chap4_fig/SAP-net_kiseki}
+	\caption{障害物を2つ配置した場合の移動軌跡}
+	\label{SAP-net_kiseki}
+\end{figure}
 
 \clearpage
-\newpage
+\section{実機実装と障害物回避性能の検証}\label{4 zikki}
+\subsection{目的と実験条件}
+本節では前節で得られた10個の知識（行動価値関数）とSAP-netを実機であるラズベリーパイマウスに転移させて，前節と同じような環境で障害物回避の実現を目的とする．具体的にはWebotsシミュレーションで得られた10個の知識（行動価値関数）とSAP-netを，ラズベリーパイマウスという実機に転移させることで，実際の物理環境で障害物回避戦略の有効性を検証する．この実機実装の過程には，シミュレーションから実機へのパラメータ調整を含む，ラズベリーパイマウスにSAP-netアルゴリズムと行動価値関数を組み込み，実世界での障害物回避の実現を目指す。実機実験では，シミュレーション環境と同等の条件下で物理的に障害物の配置を再現し，ラズベリーパイマウスが効率的に障害物を回避しつつ目標地点に到達できるかを評価する．使用する実機はFig.\ref{raspimouse}に示すように，Slamtec社製のRPLIDARを接続したRTし社製ラズベリーパイマウスを使用する．また，実験エリアをFig.\ref{zikeneria}示す．
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=60mm]{./chap4/chap4_fig/raspimouse}
+	\caption{ラズベリーパイマウス}
+	\label{raspimouse}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=60mm]{./chap4/chap4_fig/zikeneria}
+	\caption{実験エリア}
+	\label{zikeneria}
+\end{figure}
+\subsection{実験結果}
 
 \section{おわりに}\label{4 last}
-
-
+本章では，提案手法に基づいた実験の詳細について述べた．\ref{4 RLsim}節では，強化学習実験の目的，条件，および結果について述べた．\ref{4 SAP-net}節では，SAP-netを実装したシミュレーション実験の目的，条件，および結果について述べた．\ref{4 zikki}節では，・・・本実験環境において，強化学習を用いた障害物回避の有用性，SAP-netを用いて複数の障害物の環境下を含めた障害物回避の有用性，実機実装を用いての障害物回避が可能であることを示した．
 \clearpage
 \newpage

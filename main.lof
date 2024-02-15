@@ -10,13 +10,18 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces SAP-netのイメージ図}}{14}{}%
 \addvspace {10\jsc@mpt }
 \contentsline {xchapter}{提案手法}{17}{}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Webotsの操作画面}}{20}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Webotsの操作画面}}{19}{}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces シミュレーションで用いるロボットモデル}}{20}{}%
 \addvspace {10\jsc@mpt }
 \contentsline {xchapter}{実験}{21}{}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 強化学習シミュレーションの環境}}{22}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 行動回数の推移を表した学習曲線}}{23}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 獲得報酬の推移を表した学習曲線}}{23}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 強化学習後の移動軌跡}}{24}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 強化学習シミュレーションの環境}}{23}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 行動回数の推移を表した学習曲線}}{24}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 獲得報酬の推移を表した学習曲線}}{24}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 強化学習後の移動軌跡}}{25}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 行動回数の推移を表した学習曲線}}{26}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 獲得報酬の推移を表した学習曲線}}{26}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 障害物を2つ配置した場合の移動軌跡}}{27}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces ラズベリーパイマウス}}{28}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 実験エリア}}{29}{}%
 \addvspace {10\jsc@mpt }
-\contentsline {xchapter}{結論}{27}{}%
+\contentsline {xchapter}{結論}{31}{}%

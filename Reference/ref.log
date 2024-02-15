@@ -1,14 +1,15 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (sjis) (TeX Live 2016/W32TeX) (preloaded format=platex 2016.10.2)  14 DEC 2016 20:02
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  14 FEB 2024 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./ref.tex
+**ref.tex
 (./ref.tex
-pLaTeX2e <2016/09/08> (based on LaTeX2e <2016/03/31> patch level 3)
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+pLaTeX2e <2023-02-14>+1, based on
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-12-11>
 ! Undefined control sequence.
 l.1 \chapter
-            {�Q�l����}
+            *{参考文献}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -22,14 +23,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \chapter{�Q
-               �l����}
+l.1 \chapter*
+             {参考文献}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
 l.3 \lhead
-          [�Q�l����]{}
+          [参考文献]{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -37,48 +38,48 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--6
-[]
+Overfull \hbox (25.00002pt too wide) in paragraph at lines 1--4
+[]\OT1/cmr/m/n/10 *
  []
 
 
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 1--6
-\JY1/mc/m/n/10 �Q
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 1--4
+\JY1/mc/m/n/10 参
  []
 
 
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 1--6
-\JY1/mc/m/n/10 �l
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 1--4
+\JY1/mc/m/n/10 考
  []
 
 
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 1--6
-\JY1/mc/m/n/10 ��
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 1--4
+\JY1/mc/m/n/10 文
  []
 
 
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 1--6
-\JY1/mc/m/n/10 ��
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 1--4
+\JY1/mc/m/n/10 献[]
  []
 
 
-Overfull \hbox (12.39995pt too wide) in paragraph at lines 1--6
-\OT1/cmr/m/n/10 [\JY1/mc/m/n/10 �Q
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 [\JY1/mc/m/n/10 参
  []
 
 
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 1--6
-\JY1/mc/m/n/10 �l
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 1--4
+\JY1/mc/m/n/10 考
  []
 
 
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 1--6
-\JY1/mc/m/n/10 ��
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 1--4
+\JY1/mc/m/n/10 文
  []
 
 
-Overfull \hbox (12.39995pt too wide) in paragraph at lines 1--6
-\JY1/mc/m/n/10 ��\OT1/cmr/m/n/10 ]
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 1--4
+\JY1/mc/m/n/10 献\OT1/cmr/m/n/10 ] 
  []
 
 
@@ -95,19 +96,29 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1]
+[1
+! Undefined control sequence.
+<write> ...tentsline {chapter}{参考文献}{\thepage 
+                                                  }{}\protected@file@percent }
+l.7 \newpage
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! LaTeX Error: Environment mythebibliography undefined.
+\@writefile{toc}{\contentsline {chapter}{参考文献}{}{}\protected@file@percent }
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 \begin{mythebibliography}
-                              {99}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+]
+! Undefined control sequence.
+l.9 \subsection
+               *{\textmc{＜和文文献＞}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 ! LaTeX Error: Missing \begin{document}.
@@ -116,14 +127,79 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 \begin{mythebibliography}{9
-                                9}
+l.9 \subsection*
+                {\textmc{＜和文文献＞}}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+
+Overfull \hbox (34.62218pt too wide) in paragraph at lines 9--10
+[]\OT1/cmr/m/n/10 *\JY1/mc/m/n/10 ＜
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 9--10
+\JY1/mc/m/n/10 和
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 9--10
+\JY1/mc/m/n/10 文
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 9--10
+\JY1/mc/m/n/10 文
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 9--10
+\JY1/mc/m/n/10 献
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 9--10
+\JY1/mc/m/n/10 ＞ 
+ []
+
+
+! LaTeX Error: Environment mythebibliography undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \begin{mythebibliography}
+                              {}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \bibitem[中川 2005]{田所2005}
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{田所2005}{中川 2005}
 ! Undefined control sequence.
-l.15 \subsection
-                *{\hspace{-2zw}���a��������}
+l.16 ^^I\newblock
+                  ``動的障害物回避に注目した電動四輪車の知的自動運転システム,''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.17 ^^I\newblock
+                  第21回ファジィ　システム　シンポジウム, \mbox{pp.~838--841...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -131,43 +207,303 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (30.00003pt too wide) in paragraph at lines 10--16
-[]\OT1/cmr/m/n/10 99
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+[]\JY1/mc/m/n/10 中
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 10--16
-\OT1/cmr/m/n/10 *
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 川
  []
 
 
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 10--16
-\JY1/mc/m/n/10 ��
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 　
  []
 
 
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 10--16
-\JY1/mc/m/n/10 �a
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 真
  []
 
 
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 10--16
-\JY1/mc/m/n/10 ��
+Overfull \hbox (12.65881pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 仁 ，
  []
 
 
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 10--16
-\JY1/mc/m/n/10 ��
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 安
  []
 
 
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 10--16
-\JY1/mc/m/n/10 ��
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 信
  []
 
 
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 10--16
-\JY1/mc/m/n/10 �� 
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 誠
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 二\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 15--18
+\OT1/cmr/m/n/10 ``
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 的
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 障
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 害
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 物
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 回
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 避
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 に
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 注
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 目
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 し
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 た
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 電
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 四
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 輪
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 車
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 知
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 的
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 自
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 運
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 転
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 シ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 ス
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 テ
+ []
+
+
+Overfull \hbox (17.39996pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 ム\OT1/cmr/m/n/10 ,''
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 第
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 15--18
+\OT1/cmr/m/n/10 21
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 回
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 フ
+ []
+
+
+Overfull \hbox (7.47433pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 ァ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 ジ
+ []
+
+
+Overfull \hbox (7.47433pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 ィ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 シ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 ス
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 テ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 ム
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 シ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 ン
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 ポ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 ジ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 ウ
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 15--18
+\JY1/mc/m/n/10 ム\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (55.00015pt too wide) in paragraph at lines 15--18
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 15--18
+\OT1/cmr/m/n/10 2005. 
  []
 
 
@@ -177,15 +513,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \bibitem[�Ǌ� 2014]{�Ǌ�2014}
+l.19 \bibitem[敷島 2021]{敷島2021}
                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-\bibcite{�Ǌ�2014}{�Ǌ� 2014}
+\bibcite{敷島2021}{敷島 2021}
 ! Undefined control sequence.
-l.19 ^^I\newblock
-                  ``�ЊQ���Ɋ��p�\�ȃ��{�b�g�Z�p�̌����J���Ɖ^�p�V�X�e����...
+l.21 ^^I\newblock
+                  ``単眼カメラと三次元地図を用いた動的障害物の検出と三次元復...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -193,39 +529,4884 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.20 ^^I\newblock
-                  ���{���{�b�g�w�, \mbox{vol.~32}, \mbox{no.~1, \mbox{pp....
+l.22 ^^I\newblock
+                  計測自動制御学会論文集, \mbox{vol.~57}, \mbox{no.~1}, \mbo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+[]\JY1/mc/m/n/10 敷
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 島
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 惇
+ []
+
+
+Overfull \hbox (12.65881pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 也 ，
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 田
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 崎
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 豪\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 20--23
+\OT1/cmr/m/n/10 ``
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 単
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 眼
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 カ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 メ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 ラ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 と
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 三
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 次
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 元
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 地
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 図
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 を
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 用
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 い
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 た
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 的
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 障
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 害
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 物
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 検
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 出
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 と
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 三
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 次
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 元
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 復
+ []
+
+
+Overfull \hbox (17.39996pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 元\OT1/cmr/m/n/10 ,''
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 計
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 測
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 自
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 制
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 御
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 学
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 会
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 論
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 文
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 20--23
+\JY1/mc/m/n/10 集\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (31.66675pt too wide) in paragraph at lines 20--23
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 20--23
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (45.00012pt too wide) in paragraph at lines 20--23
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 20--23
+\OT1/cmr/m/n/10 2021. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \bibitem[金原 2022]{金原2022}
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{金原2022}{金原 2022}
+! Undefined control sequence.
+l.26 ^^I\newblock
+                  ``自律走行車の軌道生成における不確定な動的障害物への対処方...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.27 ^^I\newblock
+                  2022年第65回自動制御連合講演会,  \mbox{pp.~462--467}, 2022.\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+[]\JY1/mc/m/n/10 金
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 原
+ []
+
+
+Overfull \hbox (12.65881pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 翔 ，
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 米
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 谷
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 昭
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 彦\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 25--28
+\OT1/cmr/m/n/10 ``
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 自
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 律
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 走
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 行
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 車
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 軌
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 道
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 生
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 成
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 に
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 お
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 け
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 る
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 不
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 確
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 定
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 な
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 的
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 障
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 害
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 物
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 へ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 対
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 処
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 方
+ []
+
+
+Overfull \hbox (17.39996pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 法\OT1/cmr/m/n/10 ,''
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 25--28
+\OT1/cmr/m/n/10 2022
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 年
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 第
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 25--28
+\OT1/cmr/m/n/10 65
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 回
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 自
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 制
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 御
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 連
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 合
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 講
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 演
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 25--28
+\JY1/mc/m/n/10 会\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (55.00015pt too wide) in paragraph at lines 25--28
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 25--28
+\OT1/cmr/m/n/10 2022. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \bibitem[河野 2022]{河野2022}
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{河野2022}{河野 2022}
+! Undefined control sequence.
+l.31 ^^I\newblock
+                  ``知識選択型転移強化学習を用いたシニアカーの自律運転,''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.32 ^^I\newblock
+                  2022年電気学会電子・情報・システム部門大会,  \mbox{no.~115...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+[]\JY1/mc/m/n/10 河
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 野
+ []
+
+
+Overfull \hbox (12.65881pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 仁 ，
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 坂
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 本
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 裕
+ []
+
+
+Overfull \hbox (12.65881pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 都 ，
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 温
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (12.65881pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 文 ，
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 藤
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 井
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 浩
+ []
+
+
+Overfull \hbox (12.65881pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 光 ，
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 池
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 勇
+ []
+
+
+Overfull \hbox (12.65881pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 勳 ，
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 鈴
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 木
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 剛\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 30--33
+\OT1/cmr/m/n/10 ``
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 知
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 識
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 選
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 択
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 型
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 転
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 移
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 強
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 化
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 学
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 習
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 を
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 用
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 い
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 た
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 シ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 ニ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 ア
+ []
+
+
+Overfull \hbox (18.74432pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 カ ー
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 自
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 律
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 運
+ []
+
+
+Overfull \hbox (17.39996pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 転\OT1/cmr/m/n/10 ,''
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 30--33
+\OT1/cmr/m/n/10 2022
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 年
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 電
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 気
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 学
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 会
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 電
+ []
+
+
+Overfull \hbox (13.15881pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 子 ・
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 情
+ []
+
+
+Overfull \hbox (13.15881pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 報 ・
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 シ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 ス
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 テ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 ム
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 部
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 門
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 大
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 30--33
+\JY1/mc/m/n/10 会\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (39.44455pt too wide) in paragraph at lines 30--33
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (55.00015pt too wide) in paragraph at lines 30--33
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 30--33
+\OT1/cmr/m/n/10 2022. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \bibitem[齋藤 2014]{齋藤2014}
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{齋藤2014}{齋藤 2014}
+! Undefined control sequence.
+l.36 ^^I\newblock
+                  ``強化学習における効率的な転移学習適用に関する一考察,''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.37 ^^I\newblock
+                  2014年度第28回人工知能学生全国大会,  \mbox{no.~3}, \mbox{p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+[]\JY1/mc/m/n/10 齋
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 藤
+ []
+
+
+Overfull \hbox (12.65881pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 碧 ，
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 小
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 林
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 一
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 郎\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 ``
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 強
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 化
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 学
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 習
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 に
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 お
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 け
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 る
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 効
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 率
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 的
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 な
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 転
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 移
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 学
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 習
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 適
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 用
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 に
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 関
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 す
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 る
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 一
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 考
+ []
+
+
+Overfull \hbox (17.39996pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 察\OT1/cmr/m/n/10 ,''
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 2014
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 年
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 度
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 第
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 28
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 回
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 人
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 工
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 知
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 能
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 学
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 生
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 全
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 国
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 大
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 35--38
+\JY1/mc/m/n/10 会\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 35--38
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (35.00009pt too wide) in paragraph at lines 35--38
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 2014. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \bibitem[坂田 2022]{坂田2022}
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{坂田2022}{坂田 2022}
+! Undefined control sequence.
+l.41 ^^I\newblock
+                  ``強化学習における仮想環境と実環境における自動走行車いすの...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.42 ^^I\newblock
+                  第８４回全国大会講演論文集, \mbox{pp.~81--82}, 2022.\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+[]\JY1/mc/m/n/10 坂
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 田
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 悠
+ []
+
+
+Overfull \hbox (12.65881pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 馬 ，
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 長
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 尾
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 確\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 40--43
+\OT1/cmr/m/n/10 ``
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 強
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 化
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 学
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 習
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 に
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 お
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 け
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 る
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 仮
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 想
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 環
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 境
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 と
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 実
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 環
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 境
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 に
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 お
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 け
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 る
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 自
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 走
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 行
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 車
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 い
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 す
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 障
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 害
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 物
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 回
+ []
+
+
+Overfull \hbox (17.39996pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 避\OT1/cmr/m/n/10 ,''
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 第
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 ８
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 ４
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 回
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 全
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 国
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 大
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 会
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 講
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 演
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 論
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 文
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 40--43
+\JY1/mc/m/n/10 集\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (45.00012pt too wide) in paragraph at lines 40--43
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 40--43
+\OT1/cmr/m/n/10 2022. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \bibitem[Sutton 1998]{Sutton1998}
+                                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{Sutton1998}{Sutton 1998}
+! Undefined control sequence.
+l.46 ^^I\newblock
+                  強化学習,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 ^^I\newblock
+                  森北出版, 2000.\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (41.25006pt too wide) in paragraph at lines 45--48
+[]\OT1/cmr/m/n/10 R. S. Sut-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 45--48
+\OT1/cmr/m/n/10 ton,
+ []
+
+
+Overfull \hbox (43.70842pt too wide) in paragraph at lines 45--48
+\OT1/cmr/m/n/10 A. Gbarto
+ []
+
+
+Overfull \hbox (14.1623pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 （ 三
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 上
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 貞
+ []
+
+
+Overfull \hbox (12.65881pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 芳 ，
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 皆
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 川
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 雅
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 章
+ []
+
+
+Overfull \hbox (14.1623pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 訳 ）
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 45--48
+\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 強
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 化
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 学
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 習\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 森
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 北
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 出
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 45--48
+\JY1/mc/m/n/10 版\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 45--48
+\OT1/cmr/m/n/10 2000. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \bibitem[中村 2016]{中村2016}
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{中村2016}{中村 2016}
+! Undefined control sequence.
+l.51 ^^I\newblock
+                  ``複合ロボットのための動力学シミュレータの開発,''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.52 ^^I\newblock
+                  日本機械学会ロボティクス・メカトロニクス講演会'16講演論文...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+[]\JY1/mc/m/n/10 中
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 村
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 晋
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 也\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 吉
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 灘
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 裕\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 倉
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 鋪
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 圭
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 太\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 谷
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 本
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 貴
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 頌\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 近
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 藤
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 大
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 祐\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 50--53
+\OT1/cmr/m/n/10 ``
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 複
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 合
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ロ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ボ
+ []
+
+
+Overfull \hbox (7.47433pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ッ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ト
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 た
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 め
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 力
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 学
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 シ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ミ
+ []
+
+
+Overfull \hbox (7.47433pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ュ
+ []
+
+
+Overfull \hbox (18.74432pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 レ ー
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 タ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 開
+ []
+
+
+Overfull \hbox (17.39996pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 発\OT1/cmr/m/n/10 ,''
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 日
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 本
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 機
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 械
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 学
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 会
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ロ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ボ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 テ
+ []
+
+
+Overfull \hbox (7.47433pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ィ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ク
+ []
+
+
+Overfull \hbox (13.15881pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ス ・
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 メ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 カ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ト
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ロ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ニ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ク
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 ス
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 講
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 演
+ []
+
+
+Overfull \hbox (22.39998pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 会\OT1/cmr/m/n/10 '16
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 講
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 演
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 論
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 文
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 50--53
+\JY1/mc/m/n/10 集\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 50--53
+\OT1/cmr/m/n/10 2016. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \bibitem[原木 2013]{原木2013}
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{原木2013}{原木 2013}
+! Undefined control sequence.
+l.56 ^^I\newblock
+                  ``軽微な故障を抱えた脚型ロボットにおけるゴール到達のための...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.57 ^^I\newblock
+                  日本機械学会ロボティクス・メカトロニクス講演会'13講演論文...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+[]\JY1/mc/m/n/10 原
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 木
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 俊
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 彦\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 大
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 川
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 一
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 也\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 加
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 藤
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 秀
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 雄\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 樋
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 口
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 静
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 一\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 55--58
+\OT1/cmr/m/n/10 ``
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 軽
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 微
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 な
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 故
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 障
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 を
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 抱
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 え
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 た
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 脚
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 型
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ロ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ボ
+ []
+
+
+Overfull \hbox (7.47433pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ッ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ト
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 に
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 お
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 け
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 る
+ []
+
+
+Overfull \hbox (18.74432pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ゴ ー
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ル
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 到
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 達
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 た
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 め
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 自
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 律
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 作
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 修
+ []
+
+
+Overfull \hbox (17.39996pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 正\OT1/cmr/m/n/10 ,''
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 日
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 本
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 機
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 械
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 学
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 会
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ロ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ボ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 テ
+ []
+
+
+Overfull \hbox (7.47433pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ィ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ク
+ []
+
+
+Overfull \hbox (13.15881pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ス ・
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 メ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 カ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ト
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ロ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ニ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ク
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 ス
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 講
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 演
+ []
+
+
+Overfull \hbox (22.39998pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 会\OT1/cmr/m/n/10 '13
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 講
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 演
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 論
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 文
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 55--58
+\JY1/mc/m/n/10 集\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 55--58
+\OT1/cmr/m/n/10 2013. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...安全委員会 2019]{米国家運輸安全委員会2019}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{米国家運輸安全委員会2019}{米国家運輸安全委員会 2019}
+! Undefined control sequence.
+l.61 ^^I\newblock
+                  ``事故を起こしたUber Technologiesの自動運転車,''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.62 ^^I\newblock
+                  \url{https://japan.cnet.com/article/35145765/}, 2019, \mbo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.62 ^^I\newblock \url
+                      {https://japan.cnet.com/article/35145765/}, 2019, \mbo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+[]\JY1/mc/m/n/10 米
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 国
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 家
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 運
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 輸
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 安
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 全
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 委
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 員
+ []
+
+
+Overfull \hbox (12.39995pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 会\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 60--63
+\OT1/cmr/m/n/10 ``
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 事
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 故
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 を
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 起
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 こ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 し
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 た
+ []
+
+
+Overfull \hbox (21.69449pt too wide) in paragraph at lines 60--63
+\OT1/cmr/m/n/10 Uber
+ []
+
+
+Overfull \hbox (23.88889pt too wide) in paragraph at lines 60--63
+\OT1/cmr/m/n/10 Tech-
+ []
+
+
+Overfull \hbox (21.66672pt too wide) in paragraph at lines 60--63
+\OT1/cmr/m/n/10 nolo-
+ []
+
+
+Overfull \hbox (16.16669pt too wide) in paragraph at lines 60--63
+\OT1/cmr/m/n/10 gies
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 自
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 運
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 転
+ []
+
+
+Overfull \hbox (17.39996pt too wide) in paragraph at lines 60--63
+\JY1/mc/m/n/10 車\OT1/cmr/m/n/10 ,''
+ []
+
+
+Overfull \hbox (186.19492pt too wide) in paragraph at lines 60--63
+\OT1/cmr/m/n/10 https://japan.cnet.com/article/35145765/,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 60--63
+\OT1/cmr/m/n/10 2019,
+ []
+
+
+Overfull \hbox (79.6055pt too wide) in paragraph at lines 60--63
+[]\OT1/cmr/m/n/10 . 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 \bibitem[ROHM 2020]{ROHM2020}
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{ROHM2020}{ROHM 2020}
+! Undefined control sequence.
+l.66 ^^I\newblock
+                  ``ADAS.自動運転，安全を守る自動車のテクノロジーを解説,''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.67 ^^I\newblock
+                  \url{https://www.rohm.co.jp/blog/-/blog/id/8030502}, 2016,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.67 ^^I\newblock \url
+                      {https://www.rohm.co.jp/blog/-/blog/id/8030502}, 2016,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (31.52783pt too wide) in paragraph at lines 65--68
+[]\OT1/cmr/m/n/10 ROHM
+ []
+
+
+Overfull \hbox (28.47227pt too wide) in paragraph at lines 65--68
+\OT1/cmr/m/n/10 SEMI-
+ []
+
+
+Overfull \hbox (25.83337pt too wide) in paragraph at lines 65--68
+\OT1/cmr/m/n/10 CON-
+ []
+
+
+Overfull \hbox (25.69447pt too wide) in paragraph at lines 65--68
+\OT1/cmr/m/n/10 DUC-
+ []
+
+
+Overfull \hbox (25.13893pt too wide) in paragraph at lines 65--68
+\OT1/cmr/m/n/10 TOR:
+ []
+
+
+Overfull \hbox (35.69452pt too wide) in paragraph at lines 65--68
+\OT1/cmr/m/n/10 ``ADAS.
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 自
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 運
+ []
+
+
+Overfull \hbox (12.65881pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 転 ，
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 安
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 全
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 を
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 守
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 る
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 自
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 動
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 車
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 テ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 ク
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 ノ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 ロ
+ []
+
+
+Overfull \hbox (18.74432pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 ジ ー
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 を
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 解
+ []
+
+
+Overfull \hbox (17.39996pt too wide) in paragraph at lines 65--68
+\JY1/mc/m/n/10 説\OT1/cmr/m/n/10 ,''
+ []
+
+
+Overfull \hbox (137.86143pt too wide) in paragraph at lines 65--68
+\OT1/cmr/m/n/10 https://www.rohm.co.jp/blog/-
+ []
+
+
+Overfull \hbox (79.44469pt too wide) in paragraph at lines 65--68
+\OT1/cmr/m/n/10 /blog/id/8030502,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 65--68
+\OT1/cmr/m/n/10 2016,
+ []
+
+
+Overfull \hbox (79.6055pt too wide) in paragraph at lines 65--68
+[]\OT1/cmr/m/n/10 . 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \clearpage
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2]
+! Undefined control sequence.
+l.74 \subsection
+                *{\hspace{-2zw}＜英文文献＞}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (25.00002pt too wide) in paragraph at lines 74--75
+[]\OT1/cmr/m/n/10 *
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 74--75
+\JY1/mc/m/n/10 ＜
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 74--75
+\JY1/mc/m/n/10 英
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 74--75
+\JY1/mc/m/n/10 文
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 74--75
+\JY1/mc/m/n/10 文
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 74--75
+\JY1/mc/m/n/10 献
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 74--75
+\JY1/mc/m/n/10 ＞ 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 \bibitem[Matsuno 2004]{Matsuno2004}
+                                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{Matsuno2004}{Matsuno 2004}
+! Undefined control sequence.
+l.78 ^^I\newblock
+                  ``Rescue Robots and Systems in Japan,''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.79 ^^I\newblock
+                  {\em Proceedings of the 2004 IEEE International Conference...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 79.
+
+Overfull \hbox (32.91673pt too wide) in paragraph at lines 77--80
+[]\OT1/cmr/m/n/10 F. Mat-
+ []
+
+
+Overfull \hbox (20.0556pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 suno
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (25.2778pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 S. Ta-
+ []
+
+
+Overfull \hbox (32.25009pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 dokoro:
+ []
+
+
+Overfull \hbox (24.08334pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 ``Res-
+ []
+
+
+Overfull \hbox (14.44446pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 cue
+ []
+
+
+Overfull \hbox (31.02785pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 Robots
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (18.11115pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 Sys-
+ []
+
+
+Overfull \hbox (20.61115pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 tems
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (34.02788pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 Japan,''
+ []
+
+
+Overfull \hbox (19.17763pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 Pro-
+ []
+
+
+Overfull \hbox (20.95534pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 ceed-
+ []
+
+
+Overfull \hbox (17.37767pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 ings
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 of
+ []
+
+
+Overfull \hbox (13.03323pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 the
+ []
+
+
+Overfull \hbox (20.44434pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 2004
+ []
+
+
+Overfull \hbox (24.20541pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 IEEE
+ []
+
+
+Overfull \hbox (13.05547pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 In-
+ []
+
+
+Overfull \hbox (15.71652pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 ter-
+ []
+
+
+Overfull \hbox (14.31102pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 na-
+ []
+
+
+Overfull \hbox (24.78874pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 tional
+ []
+
+
+Overfull \hbox (21.46652pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 Con-
+ []
+
+
+Overfull \hbox (15.46098pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 fer-
+ []
+
+
+Overfull \hbox (18.91095pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 ence
+ []
+
+
+Overfull \hbox (10.73328pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 on
+ []
+
+
+Overfull \hbox (36.17195pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 Robotics
+ []
+
+
+Overfull \hbox (15.84436pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 and
+ []
+
+
+Overfull \hbox (46.1386pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 Biomimet-
+ []
+
+
+Overfull \hbox (14.53326pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/it/10 ics\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (45.00012pt too wide) in paragraph at lines 77--80
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/10 2004. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 \bibitem[Murphy 2004]{Murphy2004}
+                                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{Murphy2004}{Murphy 2004}
+! Undefined control sequence.
+l.83 ^^I\newblock
+                  ``Trial by Fire [Rescue Robots],''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.84 ^^I\newblock
+                  {\em IEEE Robotics \& Automation Magazine}, \mbox{vol.~11}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 84.
+
+Overfull \hbox (46.69449pt too wide) in paragraph at lines 82--85
+[]\OT1/cmr/m/n/10 R. R. Mur-
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/n/10 phy:
+ []
+
+
+Overfull \hbox (25.86116pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/n/10 ``Trial
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/n/10 by
+ []
+
+
+Overfull \hbox (17.6667pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/n/10 Fire
+ []
+
+
+Overfull \hbox (21.86111pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/n/10 [Res-
+ []
+
+
+Overfull \hbox (14.44446pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/n/10 cue
+ []
+
+
+Overfull \hbox (41.58344pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/n/10 Robots],''
+ []
+
+
+Overfull \hbox (24.20541pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/it/10 IEEE
+ []
+
+
+Overfull \hbox (36.17195pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/it/10 Robotics
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/it/10 &
+ []
+
+
+Overfull \hbox (16.1221pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/it/10 Au-
+ []
+
+
+Overfull \hbox (25.29984pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/it/10 toma-
+ []
+
+
+Overfull \hbox (17.12212pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/it/10 tion
+ []
+
+
+Overfull \hbox (22.2554pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/it/10 Mag-
+ []
+
+
+Overfull \hbox (8.68883pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/it/10 a-
+ []
+
+
+Overfull \hbox (20.15546pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/it/10 zine\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (31.66675pt too wide) in paragraph at lines 82--85
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 82--85
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (45.00012pt too wide) in paragraph at lines 82--85
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 82--85
+\OT1/cmr/m/n/10 2004. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \bibitem[Carlson 2005]{Carlson2005}
+                                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{Carlson2005}{Carlson 2005}
+! Undefined control sequence.
+l.88 ^^I\newblock
+                  ``How UGVs Physically Fail in the Field,''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.89 ^^I\newblock
+                  {\em IEEE Transactions on Robotics}, \mbox{vol.~21}, \mbox...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 89.
+
+Overfull \hbox (32.38893pt too wide) in paragraph at lines 87--90
+[]\OT1/cmr/m/n/10 J. Carl-
+ []
+
+
+Overfull \hbox (14.50003pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 son
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (46.69449pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 R. R. Mur-
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 phy:
+ []
+
+
+Overfull \hbox (24.44449pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 ``How
+ []
+
+
+Overfull \hbox (26.7917pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 UGVs
+ []
+
+
+Overfull \hbox (24.63893pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 Phys-
+ []
+
+
+Overfull \hbox (6.11111pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 i-
+ []
+
+
+Overfull \hbox (20.27783pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 cally
+ []
+
+
+Overfull \hbox (16.25005pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 Fail
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (29.86119pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 Field,''
+ []
+
+
+Overfull \hbox (24.20541pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/it/10 IEEE
+ []
+
+
+Overfull \hbox (28.49423pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/it/10 Trans-
+ []
+
+
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/it/10 ac-
+ []
+
+
+Overfull \hbox (21.21098pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/it/10 tions
+ []
+
+
+Overfull \hbox (10.73328pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/it/10 on
+ []
+
+
+Overfull \hbox (38.94974pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/it/10 Robotics\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (31.66675pt too wide) in paragraph at lines 87--90
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 87--90
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (55.00015pt too wide) in paragraph at lines 87--90
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 87--90
+\OT1/cmr/m/n/10 2005. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \bibitem[Messuri 1985]{Messuri1985}
+                                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{Messuri1985}{Messuri 1985}
+! Undefined control sequence.
+l.93 ^^I\newblock
+                  ``Automatic Body Regulation for Maintaining Stability of a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.94 ^^I\newblock
+                  {\em IEEE Journal on Robotics and Automation}, \mbox{vol.~...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 94.
+
+Overfull \hbox (46.02782pt too wide) in paragraph at lines 92--95
+[]\OT1/cmr/m/n/10 D. A. Mes-
+ []
+
+
+Overfull \hbox (16.19447pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 suri
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (50.83342pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 C. A. Klein:
+ []
+
+
+Overfull \hbox (21.38893pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 ``Au-
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 to-
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 matic
+ []
+
+
+Overfull \hbox (23.19453pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 Body
+ []
+
+
+Overfull \hbox (20.1389pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 Reg-
+ []
+
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 u-
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 la-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (25.83339pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 Main-
+ []
+
+
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 tain-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (17.77782pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 Sta-
+ []
+
+
+Overfull \hbox (14.44447pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 bil-
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 ity
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (30.6945pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 Legged
+ []
+
+
+Overfull \hbox (14.44444pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 Ve-
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 hi-
+ []
+
+
+Overfull \hbox (11.66667pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 cle
+ []
+
+
+Overfull \hbox (18.36115pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 dur-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (31.80562pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 Rough-
+ []
+
+
+Overfull \hbox (29.50006pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 terrain
+ []
+
+
+Overfull \hbox (14.58336pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 Lo-
+ []
+
+
+Overfull \hbox (12.77779pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 co-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 mo-
+ []
+
+
+Overfull \hbox (25.00008pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 tion,''
+ []
+
+
+Overfull \hbox (24.20541pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/it/10 IEEE
+ []
+
+
+Overfull \hbox (23.52205pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/it/10 Jour-
+ []
+
+
+Overfull \hbox (13.28882pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/it/10 nal
+ []
+
+
+Overfull \hbox (10.73328pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/it/10 on
+ []
+
+
+Overfull \hbox (36.17195pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/it/10 Robotics
+ []
+
+
+Overfull \hbox (15.84436pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/it/10 and
+ []
+
+
+Overfull \hbox (16.1221pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/it/10 Au-
+ []
+
+
+Overfull \hbox (25.29984pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/it/10 toma-
+ []
+
+
+Overfull \hbox (19.8999pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/it/10 tion\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (26.66673pt too wide) in paragraph at lines 92--95
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 92--95
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (55.00015pt too wide) in paragraph at lines 92--95
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/10 1985. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 \bibitem[Platt 1991]{Platt1991}
+                                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{Platt1991}{Platt 1991}
+! Undefined control sequence.
+l.98 ^^I\newblock
+                  ``A Resource-Allocating Network for Function Interpolation,''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.99 ^^I\newblock
+                  {\em Neural Computation}, \mbox{vol.~3}, \mbox{no.~2}, \mb...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 99.
+
+Overfull \hbox (35.27786pt too wide) in paragraph at lines 97--100
+[]\OT1/cmr/m/n/10 J. Platt:
+ []
+
+
+Overfull \hbox (12.50003pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 ``A
+ []
+
+
+Overfull \hbox (42.44447pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 Resource-
+ []
+
+
+Overfull \hbox (45.00012pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 Allocating
+ []
+
+
+Overfull \hbox (19.16669pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 Net-
+ []
+
+
+Overfull \hbox (21.13893pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 work
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (24.58337pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 Func-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (12.50002pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 In-
+ []
+
+
+Overfull \hbox (15.58334pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 ter-
+ []
+
+
+Overfull \hbox (14.1667pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 po-
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 la-
+ []
+
+
+Overfull \hbox (25.00008pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 tion,''
+ []
+
+
+Overfull \hbox (20.97763pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/it/10 Neu-
+ []
+
+
+Overfull \hbox (11.37213pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/it/10 ral
+ []
+
+
+Overfull \hbox (24.02206pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/it/10 Com-
+ []
+
+
+Overfull \hbox (14.05547pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/it/10 pu-
+ []
+
+
+Overfull \hbox (12.01102pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/it/10 ta-
+ []
+
+
+Overfull \hbox (19.8999pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/it/10 tion\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (26.66673pt too wide) in paragraph at lines 97--100
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 97--100
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (55.00015pt too wide) in paragraph at lines 97--100
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10 1991. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 \bibitem[Nagatani 2011]{Nagatani2011}
+                                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{Nagatani2011}{Nagatani 2011}
+! Undefined control sequence.
+l.103 ^^I\newblock
+                   ``Redesign of Rescue Mobile Robot Quince,''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.104 ^^I\newblock
+                   {\em Proceeding of 2011 IEEE International Symposium on S...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 104.
+
+Overfull \hbox (28.61116pt too wide) in paragraph at lines 102--105
+[]\OT1/cmr/m/n/10 K. Na-
+ []
+
+
+Overfull \hbox (30.00009pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 gatani,
+ []
+
+
+Overfull \hbox (36.69452pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 S. Kirib-
+ []
+
+
+Overfull \hbox (29.77785pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 ayashi,
+ []
+
+
+Overfull \hbox (43.33345pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 Y. Okada,
+ []
+
+
+Overfull \hbox (25.2778pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 S. Ta-
+ []
+
+
+Overfull \hbox (32.25009pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 dokoro,
+ []
+
+
+Overfull \hbox (60.08345pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 T. Nishimura,
+ []
+
+
+Overfull \hbox (49.50009pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 T. Yoshida,
+ []
+
+
+Overfull \hbox (32.91673pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 E. Koy-
+ []
+
+
+Overfull \hbox (23.3334pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 anagi
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (38.33342pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 Y. Hada:
+ []
+
+
+Overfull \hbox (20.1389pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 ``Re-
+ []
+
+
+Overfull \hbox (27.27783pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 design
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (19.08333pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 Res-
+ []
+
+
+Overfull \hbox (14.44446pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 cue
+ []
+
+
+Overfull \hbox (17.50003pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 Mo-
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 bile
+ []
+
+
+Overfull \hbox (27.0834pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 Robot
+ []
+
+
+Overfull \hbox (38.33342pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 Quince,''
+ []
+
+
+Overfull \hbox (19.17763pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 Pro-
+ []
+
+
+Overfull \hbox (20.95534pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 ceed-
+ []
+
+
+Overfull \hbox (13.2888pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 ing
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 of
+ []
+
+
+Overfull \hbox (20.44434pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 2011
+ []
+
+
+Overfull \hbox (24.20541pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 IEEE
+ []
+
+
+Overfull \hbox (13.05547pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 In-
+ []
+
+
+Overfull \hbox (15.71652pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 ter-
+ []
+
+
+Overfull \hbox (14.31102pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 na-
+ []
+
+
+Overfull \hbox (24.78874pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 tional
+ []
+
+
+Overfull \hbox (22.23318pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 Sym-
+ []
+
+
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 po-
+ []
+
+
+Overfull \hbox (20.69989pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 sium
+ []
+
+
+Overfull \hbox (10.73328pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 on
+ []
+
+
+Overfull \hbox (29.64424pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 Safety,
+ []
+
+
+Overfull \hbox (13.7999pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 Se-
+ []
+
+
+Overfull \hbox (13.54434pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 cu-
+ []
+
+
+Overfull \hbox (18.52763pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 rity,
+ []
+
+
+Overfull \hbox (15.84436pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 and
+ []
+
+
+Overfull \hbox (19.04985pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 Res-
+ []
+
+
+Overfull \hbox (14.56656pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 cue
+ []
+
+
+Overfull \hbox (38.94974pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/10 Robotics\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (45.00012pt too wide) in paragraph at lines 102--105
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10 2011. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 \bibitem[Kawatsuma 2012]{Kawatsuma2012}
+                                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{Kawatsuma2012}{Kawatsuma 2012}
+! Undefined control sequence.
+l.108 ^^I\newblock
+                   ``Emergency Response by Robots^^Ito Fukushima-Daiichi Acc...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.109 ^^I\newblock
+                   {\em Industrial Robot: An International Journal}, \mbox{v...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 109.
+
+Overfull \hbox (42.22229pt too wide) in paragraph at lines 107--110
+[]\OT1/cmr/m/n/10 S. Kawat-
+ []
+
+
+Overfull \hbox (25.61118pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 suma,
+ []
+
+
+Overfull \hbox (61.86127pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 M. Fukushima
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (43.05566pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 T. Okada:
+ []
+
+
+Overfull \hbox (31.83339pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 ``Emer-
+ []
+
+
+Overfull \hbox (24.72227pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 gency
+ []
+
+
+Overfull \hbox (15.13889pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 Re-
+ []
+
+
+Overfull \hbox (28.72227pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 sponse
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 by
+ []
+
+
+Overfull \hbox (31.02785pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 Robots
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (51.02791pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 Fukushima-
+ []
+
+
+Overfull \hbox (30.6945pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 Daiichi
+ []
+
+
+Overfull \hbox (15.27779pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 Ac-
+ []
+
+
+Overfull \hbox (10.55556pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 ci-
+ []
+
+
+Overfull \hbox (21.94449pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 dent:
+ []
+
+
+Overfull \hbox (22.77783pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 Sum-
+ []
+
+
+Overfull \hbox (22.52785pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 mary
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (33.08337pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 Lessons
+ []
+
+
+Overfull \hbox (42.94453pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 Learned,''
+ []
+
+
+Overfull \hbox (13.05547pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/it/10 In-
+ []
+
+
+Overfull \hbox (18.14433pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/it/10 dus-
+ []
+
+
+Overfull \hbox (18.2721pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/it/10 trial
+ []
+
+
+Overfull \hbox (27.48312pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/it/10 Robot:
+ []
+
+
+Overfull \hbox (12.79991pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/it/10 An
+ []
+
+
+Overfull \hbox (13.05547pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/it/10 In-
+ []
+
+
+Overfull \hbox (15.71652pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/it/10 ter-
+ []
+
+
+Overfull \hbox (14.31102pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/it/10 na-
+ []
+
+
+Overfull \hbox (24.78874pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/it/10 tional
+ []
+
+
+Overfull \hbox (23.52205pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/it/10 Jour-
+ []
+
+
+Overfull \hbox (16.0666pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/it/10 nal\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (31.66675pt too wide) in paragraph at lines 107--110
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 107--110
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (55.00015pt too wide) in paragraph at lines 107--110
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 107--110
+\OT1/cmr/m/n/10 2012. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \bibitem[Kober 2013]{Kober2013}
+                                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{Kober2013}{Kober 2013}
+! Undefined control sequence.
+l.113 ^^I\newblock
+                   ``Reinforcement Learning in Robotics: A survey,''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.114 ^^I\newblock
+                   {\em The International Journal of Robotics Research}, \mb...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 114.
+
+Overfull \hbox (39.88898pt too wide) in paragraph at lines 112--115
+[]\OT1/cmr/m/n/10 J. Kober,
+ []
+
+
+Overfull \hbox (38.61118pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 B. J. An-
+ []
+
+
+Overfull \hbox (21.13892pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 drew
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (15.69449pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 Jan
+ []
+
+
+Overfull \hbox (14.30556pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 Pe-
+ []
+
+
+Overfull \hbox (18.97224pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 ters:
+ []
+
+
+Overfull \hbox (20.1389pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 ``Re-
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (24.19447pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 force-
+ []
+
+
+Overfull \hbox (21.94449pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 ment
+ []
+
+
+Overfull \hbox (28.50005pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 Learn-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (41.02786pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 Robotics:
+ []
+
+
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 A
+ []
+
+
+Overfull \hbox (16.75002pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 sur-
+ []
+
+
+Overfull \hbox (21.66672pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 vey,''
+ []
+
+
+Overfull \hbox (16.86655pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/it/10 The
+ []
+
+
+Overfull \hbox (13.05547pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/it/10 In-
+ []
+
+
+Overfull \hbox (15.71652pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/it/10 ter-
+ []
+
+
+Overfull \hbox (14.31102pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/it/10 na-
+ []
+
+
+Overfull \hbox (24.78874pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/it/10 tional
+ []
+
+
+Overfull \hbox (23.52205pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/it/10 Jour-
+ []
+
+
+Overfull \hbox (13.28882pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/it/10 nal
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/it/10 of
+ []
+
+
+Overfull \hbox (36.17195pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/it/10 Robotics
+ []
+
+
+Overfull \hbox (14.96098pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/it/10 Re-
+ []
+
+
+Overfull \hbox (29.48312pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/it/10 search\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (31.66675pt too wide) in paragraph at lines 112--115
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (29.44452pt too wide) in paragraph at lines 112--115
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (65.00018pt too wide) in paragraph at lines 112--115
+[]\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 112--115
+\OT1/cmr/m/n/10 2013. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \bibitem[Haykin 2009]{Haykin2009}
+                                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{Haykin2009}{Haykin 2009}
+! Undefined control sequence.
+l.118 ^^I\newblock
+                   Neural Networks and Learning Machines,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.119 ^^I\newblock
+                   Pearson Upper Saddle River, 2009.\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (44.44456pt too wide) in paragraph at lines 117--120
+[]\OT1/cmr/m/n/10 S. Haykin:
+ []
+
+
+Overfull \hbox (20.83336pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 Neu-
+ []
+
+
+Overfull \hbox (11.69447pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 ral
+ []
+
+
+Overfull \hbox (19.16669pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 Net-
+ []
+
+
+Overfull \hbox (25.08337pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 works
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (28.50005pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 Learn-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (17.50003pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 Ma-
+ []
+
+
+Overfull \hbox (29.22226pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 chines,
+ []
+
+
+Overfull \hbox (23.22224pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 Pear-
+ []
+
+
+Overfull \hbox (14.50003pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 son
+ []
+
+
+Overfull \hbox (16.38892pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 Up-
+ []
+
+
+Overfull \hbox (14.19447pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 per
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 Sad-
+ []
+
+
+Overfull \hbox (12.7778pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 dle
+ []
+
+
+Overfull \hbox (26.27782pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 River,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 2009. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 \bibitem[Mnih 2013]{Mnih2013}
+                                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\bibcite{Mnih2013}{Mnih 2013}
+! Undefined control sequence.
+l.123 ^^I\newblock
+                   ``Playing Atari with Deep Reinforcement Learning,''
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.124 ^^I\newblock
+                   {\em Proceedings of NIPS 2013Deep Learning Workshop}, 201...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 124.
+
+Overfull \hbox (38.33342pt too wide) in paragraph at lines 122--125
+[]\OT1/cmr/m/n/10 V. Mnih,
+ []
+
+
+Overfull \hbox (72.22241pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 K. Kavukcuoglu,
+ []
+
+
+Overfull \hbox (27.08337pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 D. Sil-
+ []
+
+
+Overfull \hbox (16.13892pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 ver,
+ []
+
+
+Overfull \hbox (45.15283pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 A. Graves,
+ []
+
+
+Overfull \hbox (61.9446pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 I. Antonoglou,
+ []
+
+
+Overfull \hbox (37.38893pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 D. Wier-
+ []
+
+
+Overfull \hbox (16.75003pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 stra
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (37.63893pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 M. Ried-
+ []
+
+
+Overfull \hbox (27.80562pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 miller:
+ []
+
+
+Overfull \hbox (27.91673pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 ``Play-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (22.8056pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 Atari
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 with
+ []
+
+
+Overfull \hbox (22.08336pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 Deep
+ []
+
+
+Overfull \hbox (15.13889pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 Re-
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (24.19447pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 force-
+ []
+
+
+Overfull \hbox (21.94449pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 ment
+ []
+
+
+Overfull \hbox (28.50005pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 Learn-
+ []
+
+
+Overfull \hbox (21.11118pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 ing,''
+ []
+
+
+Overfull \hbox (19.17763pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/it/10 Pro-
+ []
+
+
+Overfull \hbox (20.95534pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/it/10 ceed-
+ []
+
+
+Overfull \hbox (17.37767pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/it/10 ings
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/it/10 of
+ []
+
+
+Overfull \hbox (23.6943pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/it/10 NIPS
+ []
+
+
+Overfull \hbox (41.79416pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/it/10 2013Deep
+ []
+
+
+Overfull \hbox (28.37753pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/it/10 Learn-
+ []
+
+
+Overfull \hbox (13.2888pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/it/10 ing
+ []
+
+
+Overfull \hbox (27.49425pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/it/10 Work-
+ []
+
+
+Overfull \hbox (22.1999pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/it/10 shop\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10 2013. 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{mythebibliography}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 \end{mythebibliography}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 )
-Runaway argument?
-{no.~1, \mbox {pp.~37--41}, 2014.\\ \par \bibitem [�c�� 2014]{�c��201\ETC.
-! File ended while scanning use of \mbox.
-<inserted text> 
-                \par 
-<*> ./ref.tex
-             
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
 ! Emergency stop.
-<*> ./ref.tex
-             
+<*> ref.tex
+           
 *** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
- 7 strings out of 493682
- 67 string characters out of 6152630
- 55539 words of memory out of 5000000
- 3675 multiletter control sequences out of 15000+600000
- 7511 words of font info for 31 fonts, out of 8000000 for 9000
+ 25 strings out of 474832
+ 467 string characters out of 5763981
+ 1948305 words of memory out of 5000000
+ 22429 multiletter control sequences out of 15000+600000
+ 562286 words of font info for 54 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 17i,4n,10p,131b,106s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on ref.dvi (1 page, 292 bytes).
+ 23i,5n,23p,185b,129s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on ref.dvi (2 pages, 4516 bytes).
