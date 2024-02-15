@@ -69,14 +69,14 @@ Fig.\ref{TLstep}より，エピソード数（試行回数）が増えるにつれてステップ数（行動回
 	\caption{獲得報酬の推移を表した学習曲線}
 	\label{SAP-net_reward}
 \end{figure}
-Fig.\ref{SAP-net_sim}より，知識（行動価値関数）を保持した状態なので，強化学習実験とは違ってより少ない行動でゴールしていることがわかる．Fig.\ref{SAP-net_reward}より，Webotsでのバグが生じたものの，ほぼ正の値に収束していることがわかる．また，障害物を2つ配置した場合の行動も検証したので，その時の移動軌跡をFig.\ref{SAP-net_kiseki}に示す．
+Fig.\ref{SAP-net_sim}より，知識（行動価値関数）を保持した状態なので，強化学習実験とは違ってより少ない行動でゴールしていることがわかる．Fig.\ref{SAP-net_reward}より，Webotsでのバグが生じたものの，ほぼ正の値に収束していることがわかる．また，障害物を2つ配置した場合の行動も検証したので，その時の移動軌跡をFig.\ref{SAP-net_kiseki}に示す．\\
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=110mm]{./chap4/chap4_fig/SAP-net_kiseki}
 	\caption{障害物を2つ配置した場合の移動軌跡}
 	\label{SAP-net_kiseki}
 \end{figure}
-
+2つの障害物をLIDARが認識しながら障害物を回避していることが示せた．
 \clearpage
 \section{実機実装と障害物回避性能の検証}\label{4 zikki}
 \subsection{目的と実験条件}
