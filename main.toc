@@ -40,7 +40,7 @@
 \contentsline {subsection}{\numberline {4.3.2}結果}{26}{}%
 \contentsline {section}{\numberline {4.4}実機実装と障害物回避性能の検証}{28}{}%
 \contentsline {subsection}{\numberline {4.4.1}目的と実験条件}{28}{}%
-\contentsline {subsection}{\numberline {4.4.2}実験結果}{29}{}%
+\contentsline {subsection}{\numberline {4.4.2}実験結果}{28}{}%
 \contentsline {section}{\numberline {4.5}おわりに}{29}{}%
 \contentsline {chapter}{\numberline {第5章}結論}{31}{}%
 \contentsline {section}{\numberline {5.1}結論}{32}{}%
