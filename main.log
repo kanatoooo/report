@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  19 FEB 2024 16:39
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  19 FEB 2024 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -692,31 +692,39 @@ File: ./chap4/chap4_fig/TLstep.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/TLstep.pdf>
 File: ./chap4/chap4_fig/TLreward.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/TLreward.pdf>
- [24
-
-]
 File: ./chap4/chap4_fig/TLkiseki.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/TLkiseki.pdf>
 File: ./chap4/chap4_fig/POLICY.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/POLICY.pdf>
+ [24
 
+]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25] [26]
+[25] [26] [27
+
+]
 File: ./chap4/chap4_fig/SAP-net_sim.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/SAP-net_sim.pdf>
 File: ./chap4/chap4_fig/SAP-net_reward.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/SAP-net_reward.pdf>
+
+
+LaTeX Warning: Reference `SAP-net_kiseki2' on page 28 undefined on input line 8
+0.
+
+File: ./chap4/chap4_fig/SAP-net_sim2.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/SAP-net_sim2.pdf>
 File: ./chap4/chap4_fig/SAP-net_kiseki.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/SAP-net_kiseki.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27
-
-] [28]
+[28] [29]
 File: ./chap4/chap4_fig/raspimouse.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/raspimouse.pdf>
 File: ./chap4/chap4_fig/zikeneria.pdf Graphic file (type pdf)
@@ -729,7 +737,7 @@ File: ./chap4/chap4_fig/migikaihi.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/migikaihi.pdf>
 File: ./chap4/chap4_fig/hidarikaihi.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/hidarikaihi.pdf>
-[29
+[30
 
 ]
 
@@ -738,28 +746,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30] [31] [32
+[31] [32] [33
 
-]) (./chap5/chap5.tex
+]) (./chap5/chap5.tex [34
+
+
+]
 第5章
-(./main.mtc5) [33
+(./main.mtc5) [35] [36] [37
+
+]) (./Backmatter/Thank.tex [38
 
 
-] [34] [35
+] [39])
+(./Reference/ref.tex [40] [41
 
-]) (./Backmatter/Thank.tex [36
-
-
-] [37])
-(./Reference/ref.tex [38] [39
-
-] [40]
+] [42]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 58
 .
 
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [41]
+) [43]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -769,24 +777,28 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 82.
 )
-(./Backmatter/Achieve.tex [42
+(./Backmatter/Achieve.tex [44
 
-] [43
+] [45
 
-]) [44] (./main.aux)
+]) [46] (./main.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 6806 strings out of 474832
- 104878 string characters out of 5763981
- 1928305 words of memory out of 5000000
- 28891 multiletter control sequences out of 15000+600000
+ 6815 strings out of 474832
+ 105159 string characters out of 5763981
+ 1929305 words of memory out of 5000000
+ 28899 multiletter control sequences out of 15000+600000
  608626 words of font info for 160 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  72i,13n,79p,3872b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (52 pages, 139924 bytes).
+Output written on main.dvi (54 pages, 141160 bytes).
