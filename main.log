@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  19 FEB 2024 17:26
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  20 FEB 2024 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,20 +540,20 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [2] (./main.lof)
+ [2] (./main.lof
+[3
+
+])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-
-[3
-
-] [4
-
-] (./main.lot)
+ [4] (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [5] [6
+ [5
+
+] [6
 
 ] (./chap1/chap1.tex
 第1章
@@ -733,27 +733,38 @@ File: ./chap4/chap4_fig/zikeneria.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: ./chap4/chap4_fig/migikaihi.pdf Graphic file (type pdf)
-<./chap4/chap4_fig/migikaihi.pdf>
-File: ./chap4/chap4_fig/hidarikaihi.pdf Graphic file (type pdf)
-<./chap4/chap4_fig/hidarikaihi.pdf>
+File: ./chap4/chap4_fig/syoumigikaihi.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/syoumigikaihi.pdf>
+File: ./chap4/chap4_fig/syouhidarikaihi.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/syouhidarikaihi.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [30
 
 ]
+File: ./chap4/chap4_fig/migikaihi.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/migikaihi.pdf>
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+File: ./chap4/chap4_fig/hidarikaihi.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/hidarikaihi.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31] [32] [33
+[31] [32] [33] [34
 
-]) (./chap5/chap5.tex [34
-
-
-]
+]) (./chap5/chap5.tex
 第5章
-(./main.mtc5) [35] [36] [37
+(./main.mtc5) [35
+
+
+] [36] [37
 
 ]) (./Backmatter/Thank.tex [38
 
@@ -793,12 +804,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6815 strings out of 474832
- 105159 string characters out of 5763981
+ 6831 strings out of 474832
+ 105717 string characters out of 5763981
  1929305 words of memory out of 5000000
- 28899 multiletter control sequences out of 15000+600000
+ 28913 multiletter control sequences out of 15000+600000
  608626 words of font info for 160 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  72i,13n,79p,3872b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (54 pages, 141160 bytes).
+Output written on main.dvi (54 pages, 142920 bytes).
