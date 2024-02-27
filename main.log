@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  27 FEB 2024 14:00
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  27 FEB 2024 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -694,21 +694,165 @@ File: ./chap4/chap4_fig/zikkennkannkyou1.pdf Graphic file (type pdf)
 [23
 
 ]
-File: ./chap4/chap4_fig/TLstep.pdf Graphic file (type pdf)
-<./chap4/chap4_fig/TLstep.pdf>
-File: ./chap4/chap4_fig/TLreward.pdf Graphic file (type pdf)
-<./chap4/chap4_fig/TLreward.pdf>
-File: ./chap4/chap4_fig/TLkiseki.pdf Graphic file (type pdf)
-<./chap4/chap4_fig/TLkiseki.pdf>
-File: ./chap4/chap4_fig/POLICY.pdf Graphic file (type pdf)
-<./chap4/chap4_fig/POLICY.pdf>
- [24
+File: ./chap4/chap4_fig/gakusyuu1.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/gakusyuu1.pdf>
+File: ./chap4/chap4_fig/gakusyuu2.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/gakusyuu2.pdf>
+File: ./chap4/chap4_fig/gakusyuu3.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/gakusyuu3.pdf>
 
-]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25] [26] [27
+File: ./chap4/chap4_fig/gakusyuu4.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/gakusyuu4.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/gakusyuu5.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/gakusyuu5.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/gakusyuu6.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/gakusyuu6.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/gakusyuu7.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/gakusyuu7.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/gakusyuu8.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/gakusyuu8.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/gakusyuu9.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/gakusyuu9.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/gakusyuu10.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/gakusyuu10.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/housyuu1.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/housyuu1.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/TLreward.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/TLreward.pdf>
+
+Overfull \hbox (18.96852pt too wide) in paragraph at lines 113--114
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/housyuu3.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/housyuu3.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/housyuu4.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/housyuu4.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/housyuu5.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/housyuu5.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/housyuu6.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/housyuu6.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/housyuu7.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/housyuu7.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/housyuu8.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/housyuu8.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/housyuu9.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/housyuu9.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/housyuu10.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/housyuu10.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24
+
+] [25] [26] [27] [28] [29] [30] [31] [32] [33]
+File: ./chap4/chap4_fig/kiseki1.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/kiseki1.pdf>
+File: ./chap4/chap4_fig/TLkiseki.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/TLkiseki.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/kiseki3.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/kiseki3.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/kiseki4.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/kiseki4.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/kiseki5.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/kiseki5.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/kiseki6.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/kiseki6.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/kiseki7.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/kiseki7.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/kiseki8.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/kiseki8.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/kiseki9.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/kiseki9.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./chap4/chap4_fig/kiseki10.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/kiseki10.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34
+
+] [35] [36] [37] [38] [39]
+File: ./chap4/chap4_fig/POLICY.pdf Graphic file (type pdf)
+<./chap4/chap4_fig/POLICY.pdf>
+ [40
+
+] [41
 
 ]
 File: ./chap4/chap4_fig/SAP-net_sim.pdf Graphic file (type pdf)
@@ -717,7 +861,8 @@ File: ./chap4/chap4_fig/SAP-net_reward.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/SAP-net_reward.pdf>
 
 
-LaTeX Warning: Reference `SAP-net_sim2' on page 28 undefined on input line 80.
+LaTeX Warning: Reference `SAP-net_sim2' on page 42 undefined on input line 276.
+
 
 File: ./chap4/chap4_fig/SAP-net_sim2.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/SAP-net_sim2.pdf>
@@ -729,7 +874,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28] [29]
+[42] [43]
 File: ./chap4/chap4_fig/raspimouse.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/raspimouse.pdf>
 File: ./chap4/chap4_fig/zikeneria.pdf Graphic file (type pdf)
@@ -748,7 +893,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30
+[44
 
 ]
 File: ./chap4/chap4_fig/migikaihi.pdf Graphic file (type pdf)
@@ -762,28 +907,28 @@ File: ./chap4/chap4_fig/hidarikaihi.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31] [32] [33] [34
+[45] [46] [47] [48
 
 ]) (./chap5/chap5.tex
 第5章
-(./main.mtc5) [35
+(./main.mtc5) [49
 
 
-] [36] [37
+] [50] [51
 
-]) (./Backmatter/Thank.tex [38
+]) (./Backmatter/Thank.tex [52
 
 
-] [39])
-(./Reference/ref.tex [40] [41
+] [53])
+(./Reference/ref.tex [54] [55
 
-] [42]
+] [56]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 58
 .
 
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [43]
+) [57]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -793,11 +938,11 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 82.
 )
-(./Backmatter/Achieve.tex [44
+(./Backmatter/Achieve.tex [58
 
-] [45
+] [59
 
-]) [46] (./main.aux)
+]) [60] (./main.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01>
@@ -809,12 +954,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6839 strings out of 474832
- 105993 string characters out of 5763981
- 1929305 words of memory out of 5000000
- 28920 multiletter control sequences out of 15000+600000
+ 7055 strings out of 474832
+ 112278 string characters out of 5763981
+ 1931305 words of memory out of 5000000
+ 29109 multiletter control sequences out of 15000+600000
  608626 words of font info for 160 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  72i,13n,79p,3872b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (54 pages, 147876 bytes).
+Output written on main.dvi (68 pages, 173208 bytes).

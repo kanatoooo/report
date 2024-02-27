@@ -30,27 +30,223 @@
 上記の条件・環境で強化学習を進め，エピソードごとのステップ数を分析して，障害物の回避策を効率的に実施するための知識を構築する．
 \clearpage
 \subsection{実験結果}
-以下にFig.\ref{zikkennkannkyou1}の配置パターン(障害物が中心にある場合)の強化学習の結果を示す．
+以下にFig.\ref{zikkennkannkyou1}の配置パターン(1番から10番)の強化学習の結果を示す．
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=120mm]{./chap4/chap4_fig/TLstep}
-	\caption{行動回数の推移を表した学習曲線}
-	\label{TLstep}
+	\includegraphics[width=120mm]{./chap4/chap4_fig/gakusyuu1}
+	\caption{行動回数の推移を表した学習曲線（1番）}
+	\label{gakusyuu1}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=120mm]{./chap4/chap4_fig/TLreward}
-	\caption{獲得報酬の推移を表した学習曲線}
+	\includegraphics[width=120mm]{./chap4/chap4_fig/gakusyuu2}
+	\caption{行動回数の推移を表した学習曲線（2番）}
+	\label{gakusyuu2}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/gakusyuu3}
+	\caption{行動回数の推移を表した学習曲線（3番）}
+	\label{gakusyuu3}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/gakusyuu4}
+	\caption{行動回数の推移を表した学習曲線（4番）}
+	\label{gakusyuu4}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/gakusyuu5}
+	\caption{行動回数の推移を表した学習曲線（5番）}
+	\label{gakusyuu5}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/gakusyuu6}
+	\caption{行動回数の推移を表した学習曲線（6番）}
+	\label{gakusyuu6}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/gakusyuu7}
+	\caption{行動回数の推移を表した学習曲線（7番）}
+	\label{gakusyuu7}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/gakusyuu8}
+	\caption{行動回数の推移を表した学習曲線（8番）}
+	\label{gakusyuu8}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/gakusyuu9}
+	\caption{行動回数の推移を表した学習曲線（9番）}
+	\label{gakusyuu9}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/gakusyuu10}
+	\caption{行動回数の推移を表した学習曲線（10番）}
+	\label{gakusyuu10}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/housyuu1}
+	\caption{獲得報酬の推移を表した学習曲線（1番）}
+	\label{housyuu1}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=140mm]{./chap4/chap4_fig/TLreward}
+	\caption{獲得報酬の推移を表した学習曲線（2番）}
 	\label{TLreward}
 \end{figure}
-Fig.\ref{TLstep}より，エピソード数（試行回数）が増えるにつれてステップ数（行動回数）が減少していることがわかる．このことから効率よく学習しながら，少ないステップ数で障害物を回避してゴールしていることを示している．Fig.\ref{TLreward}より，エピソード数が増えるにつれて獲得報酬は正の値に収束していることがわかる．このことから最適な行動戦略やポリシーを獲得し，報酬を最大化していることがわかる．今回は障害物を中心に配置したときの結果を示したが，他の配置パターンも同様な結果となった．以下に強化学習後のシミュレーションロボットの移動軌跡をFig.\ref{TLkiseki}に示す．Fig.\ref{TLkiseki}から，エージェントが障害物を回避するように障害物の右側を通過する移動軌跡となったことが示せた．他の配置パターンでも同様に，障害物を回避するような移動軌跡になった．また10パターンの障害物回避の強化学習の結果から，Fig.\ref{zikkennkannkyou1}を参考に，Fig.\ref{POLICY}に示すような刺激番号が書かれたSAP-netの知識ネットワークを作成した．障害物が右側にある場合，3番や5番などが選択されて左側を回避するような行動をする．逆に障害物が左側にある場合，4番や6番などの番号が選択されて右側に回避するような行動をするようになる．なお知識番号間にある数字は重みである．重みの数字が小さいほど，次の行動を取る時の知識選択時の知識番号が選択されるように構築した．例えば，現在3番が選択されている場合，次の行動時には知識が2番か5番が選択されやすくなる．
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/housyuu3}
+	\caption{行動回数の推移を表した学習曲線（3番）}
+	\label{housyuu3}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/housyuu4}
+	\caption{行動回数の推移を表した学習曲線（4番）}
+	\label{housyuu4}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/housyuu5}
+	\caption{行動回数の推移を表した学習曲線（5番）}
+	\label{housyuu5}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/housyuu6}
+	\caption{獲得報酬の推移を表した学習曲線（6番）}
+	\label{housyuu6}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/housyuu7}
+	\caption{獲得報酬の推移を表した学習曲線（7番）}
+	\label{housyuu7}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/housyuu8}
+	\caption{行動回数の推移を表した学習曲線（8番）}
+	\label{housyuu8}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/housyuu9}
+	\caption{行動回数の推移を表した学習曲線（9番）}
+	\label{housyuu9}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/housyuu10}
+	\caption{行動回数の推移を表した学習曲線（10番）}
+	\label{housyuu10}
+\end{figure} 
+\clearpage
+Fig.\ref{gakusyuu1}～Fig.\ref{gakusyuu10}より，エピソード数（試行回数）が増えるにつれてステップ数（行動回数）が減少していることがわかる．このことから効率よく学習しながら，少ないステップ数で障害物を回避してゴールしていることを示している．Fig.\ref{housyuu1}～Fig.\ref{housyuu10}より，エピソード数が増えるにつれて獲得報酬は正の値に収束傾向であることがわかる．このことから最適な行動戦略やポリシーを獲得し，報酬を最大化していることがわかる．以下に強化学習後のシミュレーションロボットを1エピソードだけ実行したので，移動軌跡をFig.\ref{kiseki1}～Fig.\ref{kiseki10}に示す．\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/kiseki1}
+	\caption{強化学習後の移動軌跡（1番）}
+	\label{kiseki1}
+\end{figure}
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=120mm]{./chap4/chap4_fig/TLkiseki}
-	\caption{強化学習後の移動軌跡}
+	\caption{強化学習後の移動軌跡（2番）}
 	\label{TLkiseki}
 \end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/kiseki3}
+	\caption{強化学習後の移動軌跡（3番）}
+	\label{kiseki3}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/kiseki4}
+	\caption{強化学習後の移動軌跡（4番）}
+	\label{kiseki4}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/kiseki5}
+	\caption{強化学習後の移動軌跡（5番）}
+	\label{kiseki5}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/kiseki6}
+	\caption{強化学習後の移動軌跡（6番）}
+	\label{kiseki6}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/kiseki7}
+	\caption{強化学習後の移動軌跡（7番）}
+	\label{kiseki7}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/kiseki8}
+	\caption{強化学習後の移動軌跡（8番）}
+	\label{kiseki8}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/kiseki9}
+	\caption{強化学習後の移動軌跡（9番）}
+	\label{kiseki9}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm]{./chap4/chap4_fig/kiseki10}
+	\caption{強化学習後の移動軌跡（10番）}
+	\label{kiseki10}
+\end{figure}
+
+\clearpage
+
+
+Fig.\ref{kiseki1}～Fig.\ref{kiseki10}より，それぞれの配置パターンで障害物を回避するような移動軌跡が示せた．よって障害物を回避する行動策を学習することができた．また10パターンの障害物回避の強化学習の結果から，Fig.\ref{zikkennkannkyou1}を参考に，Fig.\ref{POLICY}に示すような知識番号が書かれたSAP-netの知識ネットワークを作成した．例えば障害物が前方にない場合は，1番が選択されて直進をするような知識が選択される．障害物が5番の位置にある場合，知識番号5番が選択されて障害物を右に回避するような行動をとる．障害物が4番の位置にある場合，4番が選択されて左を回避するような行動をとる．知識番号間にある数値は知識間の重みである．重みの数値が小さいほど，次の行動をする時の知識選択の知識番号間にあるが選択されやすくなるようにした．例えば，現在3番が選択されている場合，2番か5番が選択されやすくなる．
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=100mm]{./chap4/chap4_fig/POLICY}

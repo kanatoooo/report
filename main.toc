@@ -36,19 +36,19 @@
 \contentsline {section}{\numberline {4.2}障害物回避の強化学習実験}{23}{}%
 \contentsline {subsection}{\numberline {4.2.1}目的と実験条件}{23}{}%
 \contentsline {subsection}{\numberline {4.2.2}実験結果}{24}{}%
-\contentsline {section}{\numberline {4.3}SAP-netを実装したシミュレーション実験}{27}{}%
-\contentsline {subsection}{\numberline {4.3.1}目的と実験条件}{27}{}%
-\contentsline {subsection}{\numberline {4.3.2}実験結果}{27}{}%
-\contentsline {section}{\numberline {4.4}実機実装と障害物回避性能の検証}{30}{}%
-\contentsline {subsection}{\numberline {4.4.1}目的と実験条件}{30}{}%
-\contentsline {subsection}{\numberline {4.4.2}実験結果}{30}{}%
-\contentsline {section}{\numberline {4.5}おわりに}{34}{}%
-\contentsline {chapter}{\numberline {第5章}結論}{35}{}%
-\contentsline {section}{\numberline {5.1}結論}{36}{}%
-\contentsline {section}{\numberline {5.2}今後の展望}{37}{}%
+\contentsline {section}{\numberline {4.3}SAP-netを実装したシミュレーション実験}{41}{}%
+\contentsline {subsection}{\numberline {4.3.1}目的と実験条件}{41}{}%
+\contentsline {subsection}{\numberline {4.3.2}実験結果}{41}{}%
+\contentsline {section}{\numberline {4.4}実機実装と障害物回避性能の検証}{44}{}%
+\contentsline {subsection}{\numberline {4.4.1}目的と実験条件}{44}{}%
+\contentsline {subsection}{\numberline {4.4.2}実験結果}{44}{}%
+\contentsline {section}{\numberline {4.5}おわりに}{48}{}%
+\contentsline {chapter}{\numberline {第5章}結論}{49}{}%
+\contentsline {section}{\numberline {5.1}結論}{50}{}%
+\contentsline {section}{\numberline {5.2}今後の展望}{51}{}%
 \chapterbegin 
-\contentsline {chapter}{謝辞}{40}{}%
+\contentsline {chapter}{謝辞}{54}{}%
 \chapterbegin 
-\contentsline {chapter}{参考文献}{41}{}%
-\contentsline {chapter}{研究業績}{44}{}%
+\contentsline {chapter}{参考文献}{55}{}%
+\contentsline {chapter}{研究業績}{58}{}%
 \chapterbegin 
