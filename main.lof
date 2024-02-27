@@ -8,7 +8,8 @@
 \contentsline {figure}{\numberline {1.6}{\ignorespaces 本論文の構成}}{9}{}%
 \addvspace {10\jsc@mpt }
 \contentsline {xchapter}{学習アルゴリズム}{11}{}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces SAP-netのイメージ図}}{14}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 強化学習の簡略図}}{12}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces SAP-netのイメージ図}}{14}{}%
 \addvspace {10\jsc@mpt }
 \contentsline {xchapter}{提案手法}{17}{}%
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Webotsの操作画面}}{20}{}%
@@ -19,7 +20,7 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces 行動回数の推移を表した学習曲線}}{24}{}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces 獲得報酬の推移を表した学習曲線}}{24}{}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces 強化学習後の移動軌跡}}{25}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces SAP-netの構造の概念図}}{26}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces SAP-netの知識ネットワークの概念図}}{26}{}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces 行動回数の推移を表した学習曲線}}{28}{}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces 獲得報酬の推移を表した学習曲線}}{28}{}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces 障害物を2つ配置した場合のシミュレーション環境}}{29}{}%
