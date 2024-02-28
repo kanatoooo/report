@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.20)  28 FEB 2024 12:34
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  28 FEB 2024 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -928,17 +928,23 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 58
 
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [57]
-LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 82.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 82.
-LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 82.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 82.
 )
-(./Backmatter/Achieve.tex [58
+Underfull \hbox (badness 1178) in paragraph at lines 66--69
+[]\JY1/mc/m/n/10 国土交通省\T1/ptm/m/n/10 :  ``\JY1/mc/m/n/10 自動運転を巡る動
+き\T1/ptm/m/n/10 ,''  $\T1/pcr/m/n/10 /https : / / www . mlit . go . jp / commo
+n /
+ []
+
+[57]
+LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 84.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 84.
+LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 84.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 84.
+) (./Backmatter/Achieve.tex [58
 
 ] [59
 
@@ -954,12 +960,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7055 strings out of 474833
- 112278 string characters out of 5764002
+ 7055 strings out of 474832
+ 112278 string characters out of 5763981
  1931305 words of memory out of 5000000
- 29108 multiletter control sequences out of 15000+600000
+ 29109 multiletter control sequences out of 15000+600000
  608626 words of font info for 160 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  72i,13n,79p,3872b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (68 pages, 173364 bytes).
+Output written on main.dvi (68 pages, 173404 bytes).
