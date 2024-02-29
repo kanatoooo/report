@@ -9,54 +9,55 @@
 \addvspace {10\jsc@mpt }
 \contentsline {xchapter}{学習アルゴリズム}{11}{}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 強化学習の簡略図}}{12}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces SAP-netのイメージ図}}{14}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 転移学習の簡略図}}{13}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces SAP-netのイメージ図}}{15}{}%
 \addvspace {10\jsc@mpt }
 \contentsline {xchapter}{提案手法}{17}{}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Webotsの操作画面}}{20}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces シミュレーションで用いるロボットモデル}}{20}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Webotsの操作画面}}{19}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces シミュレーションで用いるロボットモデル}}{19}{}%
 \addvspace {10\jsc@mpt }
-\contentsline {xchapter}{実験}{21}{}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 強化学習シミュレーションの環境}}{23}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 行動回数の推移を表した学習曲線（1番）}}{24}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 行動回数の推移を表した学習曲線（2番）}}{24}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 行動回数の推移を表した学習曲線（3番）}}{25}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces 行動回数の推移を表した学習曲線（4番）}}{25}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces 行動回数の推移を表した学習曲線（5番）}}{26}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces 行動回数の推移を表した学習曲線（6番）}}{26}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces 行動回数の推移を表した学習曲線（7番）}}{27}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces 行動回数の推移を表した学習曲線（8番）}}{27}{}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces 行動回数の推移を表した学習曲線（9番）}}{28}{}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces 行動回数の推移を表した学習曲線（10番）}}{28}{}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces 獲得報酬の推移を表した学習曲線（1番）}}{29}{}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces 獲得報酬の推移を表した学習曲線（2番）}}{29}{}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces 行動回数の推移を表した学習曲線（3番）}}{30}{}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces 行動回数の推移を表した学習曲線（4番）}}{30}{}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces 行動回数の推移を表した学習曲線（5番）}}{31}{}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces 獲得報酬の推移を表した学習曲線（6番）}}{31}{}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces 獲得報酬の推移を表した学習曲線（7番）}}{32}{}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces 行動回数の推移を表した学習曲線（8番）}}{32}{}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces 行動回数の推移を表した学習曲線（9番）}}{33}{}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces 行動回数の推移を表した学習曲線（10番）}}{33}{}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces 強化学習後の移動軌跡（1番）}}{34}{}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces 強化学習後の移動軌跡（2番）}}{35}{}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces 強化学習後の移動軌跡（3番）}}{35}{}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces 強化学習後の移動軌跡（4番）}}{36}{}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces 強化学習後の移動軌跡（5番）}}{36}{}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces 強化学習後の移動軌跡（6番）}}{37}{}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces 強化学習後の移動軌跡（7番）}}{37}{}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces 強化学習後の移動軌跡（8番）}}{38}{}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces 強化学習後の移動軌跡（9番）}}{38}{}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces 強化学習後の移動軌跡（10番）}}{39}{}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces SAP-netの知識ネットワークのイメージ図}}{40}{}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces 行動回数の推移を表した学習曲線}}{42}{}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces 獲得報酬の推移を表した学習曲線}}{42}{}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces 障害物を2つ配置した場合のシミュレーション環境}}{43}{}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces 障害物を2つ配置した場合の移動軌跡}}{43}{}%
-\contentsline {figure}{\numberline {4.37}{\ignorespaces ラズベリーパイマウス}}{44}{}%
-\contentsline {figure}{\numberline {4.38}{\ignorespaces 実験環境}}{45}{}%
-\contentsline {figure}{\numberline {4.39}{\ignorespaces 障害物を右に回避した時の比較動合成画像}}{46}{}%
-\contentsline {figure}{\numberline {4.40}{\ignorespaces 障害物を右に回避した時の比較動合成画像}}{46}{}%
-\contentsline {figure}{\numberline {4.41}{\ignorespaces 障害物を右に回避した時の知識選択の推移}}{47}{}%
-\contentsline {figure}{\numberline {4.42}{\ignorespaces 障害物を左に回避した時の知識選択の推移}}{47}{}%
+\contentsline {xchapter}{実験}{23}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 強化学習シミュレーションの環境}}{25}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 行動回数の推移を表した学習曲線（1番）}}{26}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 行動回数の推移を表した学習曲線（2番）}}{27}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 行動回数の推移を表した学習曲線（3番）}}{27}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 行動回数の推移を表した学習曲線（4番）}}{28}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 行動回数の推移を表した学習曲線（5番）}}{28}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 行動回数の推移を表した学習曲線（6番）}}{29}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 行動回数の推移を表した学習曲線（7番）}}{29}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 行動回数の推移を表した学習曲線（8番）}}{30}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces 行動回数の推移を表した学習曲線（9番）}}{30}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces 行動回数の推移を表した学習曲線（10番）}}{31}{}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces 獲得報酬の推移を表した学習曲線（1番）}}{31}{}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces 獲得報酬の推移を表した学習曲線（2番）}}{32}{}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces 行動回数の推移を表した学習曲線（3番）}}{32}{}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces 行動回数の推移を表した学習曲線（4番）}}{33}{}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces 行動回数の推移を表した学習曲線（5番）}}{33}{}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces 獲得報酬の推移を表した学習曲線（6番）}}{34}{}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces 獲得報酬の推移を表した学習曲線（7番）}}{34}{}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces 行動回数の推移を表した学習曲線（8番）}}{35}{}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces 行動回数の推移を表した学習曲線（9番）}}{35}{}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces 行動回数の推移を表した学習曲線（10番）}}{36}{}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces 強化学習後の移動軌跡（1番）}}{37}{}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces 強化学習後の移動軌跡（2番）}}{38}{}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces 強化学習後の移動軌跡（3番）}}{38}{}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces 強化学習後の移動軌跡（4番）}}{39}{}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces 強化学習後の移動軌跡（5番）}}{39}{}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces 強化学習後の移動軌跡（6番）}}{40}{}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces 強化学習後の移動軌跡（7番）}}{40}{}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces 強化学習後の移動軌跡（8番）}}{41}{}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces 強化学習後の移動軌跡（9番）}}{41}{}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces 強化学習後の移動軌跡（10番）}}{42}{}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces SAP-netの知識（方策）ネットワークのイメージ図}}{43}{}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces 行動回数の推移を表した学習曲線}}{45}{}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces 獲得報酬の推移を表した学習曲線}}{45}{}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces 障害物を2つ配置した場合のシミュレーション環境}}{46}{}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces 障害物を2つ配置した場合の移動軌跡}}{46}{}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces ラズベリーパイマウス}}{47}{}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces 実験環境}}{48}{}%
+\contentsline {figure}{\numberline {4.39}{\ignorespaces 障害物を右に回避した時の比較動合成画像}}{49}{}%
+\contentsline {figure}{\numberline {4.40}{\ignorespaces 障害物を右に回避した時の比較動合成画像}}{49}{}%
+\contentsline {figure}{\numberline {4.41}{\ignorespaces 障害物を右に回避した時の知識選択の推移}}{50}{}%
+\contentsline {figure}{\numberline {4.42}{\ignorespaces 障害物を左に回避した時の知識選択の推移}}{50}{}%
 \addvspace {10\jsc@mpt }
-\contentsline {xchapter}{結論}{49}{}%
+\contentsline {xchapter}{結論}{53}{}%

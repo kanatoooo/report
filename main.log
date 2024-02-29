@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.20)  28 FEB 2024 13:03
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.18)  28 FEB 2024 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,7 +643,7 @@ File: ./chap1/chap1_fig/unity.pdf Graphic file (type pdf)
 File: ./chap1/chap1_fig/kousei.pdf Graphic file (type pdf)
 <./chap1/chap1_fig/kousei.pdf>
 
-Overfull \hbox (18.96852pt too wide) in paragraph at lines 95--96
+Overfull \hbox (18.96852pt too wide) in paragraph at lines 94--95
  [][] 
  []
 
@@ -656,51 +656,55 @@ Overfull \hbox (18.96852pt too wide) in paragraph at lines 95--96
 (./main.mtc2) [11]
 File: ./chap2/chap2_fig/kyoukagakusyuu.pdf Graphic file (type pdf)
 <./chap2/chap2_fig/kyoukagakusyuu.pdf>
- [12] [13]
+ [12]
+File: ./chap2/chap2_fig/tennigakusyuu.pdf Graphic file (type pdf)
+<./chap2/chap2_fig/tennigakusyuu.pdf>
+ [13]
 File: ./chap2/chap2_fig/SAP-net_image.pdf Graphic file (type pdf)
 <./chap2/chap2_fig/SAP-net_image.pdf>
- [14]) (./chap3/chap3.tex [15
 
 
-] [16
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15]) (./chap3/chap3.tex [16
+
 
 ]
 第3章
-(./main.mtc3) [17] [18]
-File: ./chap2/chap2_fig/webots_stage.pdf Graphic file (type pdf)
-<./chap2/chap2_fig/webots_stage.pdf>
+(./main.mtc3) [17
+
+] [18]
+File: ./chap3/chap3_fig/webots_stage.pdf Graphic file (type pdf)
+<./chap3/chap3_fig/webots_stage.pdf>
 File: ./chap2/chap2_fig/model.pdf Graphic file (type pdf)
 <./chap2/chap2_fig/model.pdf>
+ [19] [20] [21
+
+]) (./chap4/chap4.tex [22
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[19] [20]) (./chap4/chap4.tex
+]
 第4章
-(./main.mtc4) [21
+(./main.mtc4) [23] [24]
+Overfull \hbox (4.77496pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
 
-
-] [22]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-6.
- (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
 File: ./chap4/chap4_fig/zikkennkannkyou1.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/zikkennkannkyou1.pdf>
-[23
+[25
 
 ]
 File: ./chap4/chap4_fig/gakusyuu1.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/gakusyuu1.pdf>
 File: ./chap4/chap4_fig/gakusyuu2.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/gakusyuu2.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: ./chap4/chap4_fig/gakusyuu3.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/gakusyuu3.pdf>
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -747,7 +751,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: ./chap4/chap4_fig/TLreward.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/TLreward.pdf>
 
-Overfull \hbox (18.96852pt too wide) in paragraph at lines 113--114
+Overfull \hbox (18.96852pt too wide) in paragraph at lines 122--123
  [][] 
  []
 
@@ -794,9 +798,7 @@ File: ./chap4/chap4_fig/housyuu10.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24
-
-] [25] [26] [27] [28] [29] [30] [31] [32] [33]
+[26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36]
 File: ./chap4/chap4_fig/kiseki1.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/kiseki1.pdf>
 File: ./chap4/chap4_fig/TLkiseki.pdf Graphic file (type pdf)
@@ -845,36 +847,32 @@ File: ./chap4/chap4_fig/kiseki10.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34
+[37
 
-] [35] [36] [37] [38] [39]
+] [38] [39] [40] [41] [42]
 File: ./chap4/chap4_fig/POLICY.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/POLICY.pdf>
- [40
+ [43
 
-] [41
+] [44
 
 ]
 File: ./chap4/chap4_fig/SAP-net_sim.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/SAP-net_sim.pdf>
 File: ./chap4/chap4_fig/SAP-net_reward.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/SAP-net_reward.pdf>
-
-
-LaTeX Warning: Reference `SAP-net_sim2' on page 42 undefined on input line 276.
-
-
 File: ./chap4/chap4_fig/SAP-net_sim2.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/SAP-net_sim2.pdf>
 File: ./chap4/chap4_fig/SAP-net_kiseki.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/SAP-net_kiseki.pdf>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42] [43]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[45] [46]
 File: ./chap4/chap4_fig/raspimouse.pdf Graphic file (type pdf)
 <./chap4/chap4_fig/raspimouse.pdf>
 File: ./chap4/chap4_fig/zikeneria.pdf Graphic file (type pdf)
@@ -893,7 +891,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44
+[47
 
 ]
 File: ./chap4/chap4_fig/migikaihi.pdf Graphic file (type pdf)
@@ -907,22 +905,22 @@ File: ./chap4/chap4_fig/hidarikaihi.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[45] [46] [47] [48
+[48] [49] [50] [51
 
-]) (./chap5/chap5.tex
+]) (./chap5/chap5.tex [52
+
+
+]
 第5章
-(./main.mtc5) [49
+(./main.mtc5) [53] [54] [55
+
+]) (./Backmatter/Thank.tex [56
 
 
-] [50] [51
+] [57])
+(./Reference/ref.tex [58] [59
 
-]) (./Backmatter/Thank.tex [52
-
-
-] [53])
-(./Reference/ref.tex [54] [55
-
-] [56]
+] [60]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 58
 .
 
@@ -935,7 +933,7 @@ Underfull \hbox (badness 1178) in paragraph at lines 66--69
 n /
  []
 
-[57]
+[61]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -944,28 +942,24 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 84.
-) (./Backmatter/Achieve.tex [58
+) (./Backmatter/Achieve.tex [62
 
-] [59
+] [63
 
-]) [60] (./main.aux)
+]) [64] (./main.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 7055 strings out of 474833
- 112278 string characters out of 5764002
+ 7039 strings out of 474832
+ 112201 string characters out of 5763981
  1931305 words of memory out of 5000000
- 29108 multiletter control sequences out of 15000+600000
- 608626 words of font info for 160 fonts, out of 8000000 for 9000
+ 29095 multiletter control sequences out of 15000+600000
+ 608312 words of font info for 159 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  72i,13n,79p,3872b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (68 pages, 173404 bytes).
+Output written on main.dvi (72 pages, 176240 bytes).
